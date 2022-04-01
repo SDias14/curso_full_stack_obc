@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Google</title>
+</head>
+<body>
+    <h1>Encontre no Google</h1>
+    <form action="https://www.google.com/search">
+        <label for="q">O que deseja pesquisar : </label>
+        <input type="text" id="q" name="q" placeholder="Nasa, Space X" required><!--O atributo required faz com que o campo seja realmente necessário e o usuário não consegue avançar a pesquisa. -->
+        <input type="email" id="q" name="q" placeholder="Nasa, Space X" required><!-- Se o input for um email com o required ele vai solicitar que seja colocado arroba    -->
+        <input type="number" id="q" name="q" placeholder="Nasa, Space X" min="10" max="12"><!-- Se o input for um number com o required ele vai solicitar que seja colocado numeros somente  -->
+        
+        
+        
+        
+        <input type="submit" value="Pesquisar">
+
+
+
+    </form>
+
+    <!--
+        form action: para onde o formulário irá ser direcionado 
+
+        label é uma tag especifica que tem ligação com o input. Ela tem um for que liga as duas tags
+
+        input type é uma tag que vai criar o campo para digitação do usuário. 
+        Ela pode ter um id que vai facilitar na hora do css e javascript e tem um name que é o parametro que vai ser passado para o google e o placeholder que é a mensagem que fica dentro do input
+
+
+
+
+
+    -->
+</body>
+</html>

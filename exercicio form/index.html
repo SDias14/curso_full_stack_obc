@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da liga dos Astronautas</title>
+</head>
+<body>
+    <h1>Cadastro da Liga dos Funcionários</h1>
+    
+    <form>
+
+        <p><label for="name">Nome :</label> 
+            <input type="text" placeholder="nome" required></p>
+
+        <p><label for="email">Email :</label>
+             <input type="email" placeholder="email" required>
+            
+            <label for="password">Senha : </label>     
+             <input type="password" required>
+        </p>
+<p>
+    
+           <label for="date">Data de Nascimento :</label> <input type="date" placeholder="data de nascimento">
+    
+           <label for="file">- Insira uma foto : </label><input type="file" placeholder="Foto">
+</p>
+
+
+
+<p>
+    <label for="nacionalidade">Nacionalidade :</label>
+    <select id="nacionalidade" name="nacionalidade">
+      <option value="russo">Russo</option>
+      <option value="americano">Americano</option>
+      <option value="fiat">Brasileiro</option>
+    
+    </select>
+    <label for="gender">Gênero : </label>
+        <input type="radio" name="gender" value="male" checked>male 
+        <input type="radio" name="gender" value="female" checked>female 
+        <input type="radio" name="gender" value="other" checked>other 
+ </p>
+
+ <p>
+    <label for="checkbox">Suas principais qualidades :</label> <br>
+    <input type="checkbox" name="qualidade1" value="inteligência"> Inteligência 
+    
+    <input type="checkbox" name="qualidade2" value="resiliencia"> Resiliência
+
+    <input type="checkbox" name="qualidade3" value="preparo"> Preparo Físico
+
+    <input type="checkbox" name="qualidade4" value="educacao"> Educação
+</p>
+
+<textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit" value="CRIAR">
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
