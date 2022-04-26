@@ -1,0 +1,29 @@
+h1{
+    font-family: ' Montserrat';
+}
+
+.post{
+    background-color: #fffafa;
+    text-align: justify;
+    margin: 0px 100px 80px 100px;
+    height: 200px;
+    
+ 
+}
+
+.date{
+    color: #008080 ;
+    font-family: 'Roboto';
+}
+
+hr{
+    margin: 10px 100px 60px 100px;
+ 
+    background-color: #fffafa;
+}
+
+.post-container{
+    background-color: #fffafa;
+    margin: -15px 100px 60px 100px;
+    font-family: 'Open Sans';
+}
