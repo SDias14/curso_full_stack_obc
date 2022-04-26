@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: #2c3e50;
+}
+
+h1{
+    color: white;
+}
+
+#days{
+    color: white;
+}
+
+h3{
+    color:#f1c40f
+}
+
+#activities{
+    color: white;
+}
+
+h2{
+    color: black;
+    background-color: #f1c40f;
+}
+
+#astronomy-class{
+    color: #e74c3c;
+}
