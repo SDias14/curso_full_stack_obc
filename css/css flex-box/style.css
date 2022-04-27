@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .flex-container {
+    box-sizing: border-box;
+    
+    padding: 10px;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex; 
+    gap: 10px;
+    
+    
+
+  }
+  .flex-item {
+    background-color: hsl(344, 100%, 50%);
+   /* flex-basis: 150px;
+     ele é uma base para os itens. ou seja , se colocarmos 150 px todos os itens terão 150px de largura 
+    flex-grow: 1;
+    /* o flex-grow ajuda a dar um espaçamento uniforme para todos os itens.  
+
+    flex-shrink: 1;
+    */
+
+    flex: 1 1 150px ;
+
+    /* o flex funciona como uma short-hand, possibilitando que todos os elementos sejam aplicados na mesma linha. O primeiro é grow , segundo shrink e o terceiro é o basis.
+    */
+    
+    
+  }
+
+  
+  /*.item-2{
+      flex-grow: 2;
+
+      quando se coloca alguma classe com o flex-grow ela vai ser a responsavel por tomar  o espaço faltante dos itens
+
+  }*/
+
+
+
+
+
+    
+  
+  /* 
+    
+    comentários sobre o flex-content: 
+
+
+    /* o box-sizing ajuda no flex-box. Por que ? porque ele nao deixa que a borda dos elementos nao ultrapassem o padding, gerando assim um scroll*/
+
+
+    /* Acionamento da função flex dentro do css. ele sai de linha e se transforma em coluna.  */
+     
+    /* column-gap: 10px ;   Colum-gap : adiciona o espaçamento das colunas dos flex-items */
+    
+   /*  flex-wrap: wrap; tranforma em linhas*/
+    /*row-gap: 10px;
+    espaço entre as linhas
+    
+    
+    
+    o gap adiciona espaço entre as linhas e colunas de uma vez, não sendo necessário declarar row-gap nem column-gap*/
+
+   /*  flex-direction: row;
+    o flex-direction dita a direção dos conteudos dentro do flexbox.
+
+    se quisermos usar colunas devemos colocar : flex-direction : column
+    linha : flex-direction : row 
+
+    flex-direction: row-reverse : coloca a ultima linha em primeiro.
+    
+    
+    
+    
+    flex-wrap: wrap ;
+    */
+    
+   /* flex-flow: row-reverse wrap-reverse ;
+
+    basicamente é a junção, uma short-hand de flex-wrap e flex-direction
+
+    */
+
+    /* alinhamentos */
+
+   /* align-items: center;
+     align-items : podemos alinhar os itens tanto no centro quanto embaixo e em cima.
+    
+    align-center :centro
+    flex-start : em cima
+    flex-end : embaixo
+
+    eles são alinhados de forma vertical 
+    
+    
+    
+    
+
+    /*     flex-wrap: wrap;
+    
+
+
+
+    justify-content: center ;
+   
+   /* justify content ajuda a alinhar os itens de forma horizontal no meio da tela.  */
+   
+   
+   /*  align-content: center;
+
+align-content: ajuda a alinhar os itens de forma vertical para nao deixar alguns tipos de espaçamento.  */
+
