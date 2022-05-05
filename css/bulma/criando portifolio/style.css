@@ -1,8 +1,12 @@
-
-.column1 {
-
-    width: 47%;
-    
+.shadow{
+    box-shadow: none;
 }
-    
+
+.color{
+    background-color: black;
+    color: white;
+}
+
+
+
 
