@@ -43,3 +43,11 @@ h2{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar-menu{
+    box-shadow: none;
+}
+
+.navbar-item button{
+    box-shadow: none;
+}
