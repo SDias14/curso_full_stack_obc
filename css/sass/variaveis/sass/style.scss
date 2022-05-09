@@ -1,0 +1,12 @@
+$btn-color: yellow;
+$width: 100px;
+
+.btn1{
+    width: $width;
+    background-color: $btn-color;
+}
+
+.btn2{
+    width: $width;
+    background-color: $btn-color;
+}
