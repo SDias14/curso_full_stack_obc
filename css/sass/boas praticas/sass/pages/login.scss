@@ -1,0 +1,7 @@
+.container{
+    p{
+        @include text-style(blue, 22px, Arial);
+    }
+
+    
+}
