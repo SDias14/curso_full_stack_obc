@@ -1,3 +1,22 @@
+body{
+    background-color: black;
+}
+
+
 .background-color{
     background-color: red;
+    border: 1px solid black;
+}
+
+.margin{
+    margin: 0px;
+    padding: 0px;
+}
+
+.under{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
 }
