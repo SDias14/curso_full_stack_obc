@@ -1,1 +1,24 @@
-body{background:url("../img/backgroundLp.png") no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}/*# sourceMappingURL=style.css.map */
+body {
+  background: url("../img/backgroundLp.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.color1 {
+  background-color: rgba(18, 17, 17, 0.5254901961);
+  width: 500px;
+}
+
+.padding1 {
+  padding-top: 40px;
+}
+
+.text-color {
+  color: white;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
