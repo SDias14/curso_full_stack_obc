@@ -15,9 +15,18 @@ body {
   padding-top: 40px;
 }
 
-.text-color {
+.padding_t {
+  padding-top: 10px;
   color: white;
   padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-color {
+  color: white;
+}
+
+.fonts {
   font-family: Arial, Helvetica, sans-serif;
 }
 
