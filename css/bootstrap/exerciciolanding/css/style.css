@@ -34,6 +34,26 @@ body {
 }
 
 .color-box {
+  margin-left: 400px;
+  align-items: center;
+}
+
+.fotter {
+  margin-top: 30px;
+  margin-bottom: -30px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fotter .container {
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+}
+
+.color-box {
   background-color: rgba(18, 17, 17, 0.5254901961);
   width: 500px;
   height: 700px;
