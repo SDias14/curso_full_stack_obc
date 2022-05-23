@@ -7,57 +7,51 @@ body{
 
 }
 
-.color1{
-    background-color: #12111186;
-    width: 500px;
-    height: 700px;
-    margin-top:50px;
-
-    
-
-}
-
-
-.padding1{
+.padding-box{
 
     padding-top: 40px;
     
 }
 
-.padding_t{
+.padding_title{
     padding-top: 10px;
-    color: white;
     padding-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.text-color{
-    color: white;
-    
     
 }
 
-.fonts{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-
-.align{
+.btn-align{
     margin-left: 170px;
     margin-top: 20px;
 }
 
-.footer{
+.footer-padding{
     padding-top: 40px;
 }
 
 
-.align2{
+.img-align{
     margin-left: 163px;
-   padding-top: 20px;
+    padding-top: 20px;
 }
 
-.padding_m{
+.padding_style{
     padding: 3px;
 }
+
+// import Colors from './colors';
+
+@import 'colors.scss';
+
+//import home from './home';
+
+@import 'home.scss';
+
+
+
+
+
+
+
+
+
