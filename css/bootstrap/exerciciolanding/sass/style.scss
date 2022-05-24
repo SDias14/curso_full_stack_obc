@@ -1,79 +1,46 @@
-body{
-    background: url('../img/backgroundLp.png') no-repeat center center fixed;
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body {
+    background: url("../img/backgroundLp.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    color: white;
+ 
+}
     
+  
 
-}
-
-.padding-box{
-
-    padding-top: 40px;
-    
-}
-
-.padding_title{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-
-.btn-align{
-    margin-left: 170px;
-    margin-top: 20px;
-}
-
-.footer-padding{
-    padding-top: 40px;
-}
-
-
-.img-align{
-    margin-left: 163px;
-    padding-top: 20px;
-}
-
-.padding_style{
-    padding: 3px;
-}
-
-.color-box{
-    margin-left: 400px;
- align-items: center;
-}
-
-.fotter {
-    margin-top: 30px;
-    margin-bottom: -30px;
-    width: 100%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: auto;
-    margin-left: auto;
+  .container1 {
+    background-color: #131212f1;
+    width: 450px;
+    height: auto;
   }
 
-  
-    .fotter .container {
-        padding-right: var(--bs-gutter-x,.75rem);
-        padding-left: var(--bs-gutter-x,.75rem);
-    }
+  .topLogo {
+    width: 180px;
+  }
 
-// import Colors from './colors';
+  #paragraph {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 
-@import 'colors.scss';
+  .btnSucess {
+    color: #ff0043;
+    border: 1px solid #ff0043;
+  }
 
-//import home from './home';
+  .btnSucess:hover {
+    background-color: #ff0043;
+    color: white;
+  }
 
-@import 'home.scss';
-
-
-
-
-
-
-
-
-
+  .fotter {
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
