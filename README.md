@@ -12,7 +12,7 @@ Veja uma Landing Page criado com Bootstrap e html
 
 <a href= "https://sdias14.github.io/curso_full_stack_obc/css/bootstrap/exerciciolanding/index.html"> Landing page </a>
 
-
+onebitx
 
 <a href= "https://sdias14.github.io/curso_full_stack_obc/css/bootstrap/projeto/index.html"> onebitx </a>
                                             
