@@ -14,6 +14,6 @@ Veja uma Landing Page criado com Bootstrap e html
 
 
 
-<a href= "https://sdias14.github.io/curso_full_stack_obc/blob/main/css/bootstrap/projeto%20onebitx/index.html"> onebitx </a>
+<a href= "https://sdias14.github.io/curso_full_stack_obc/blob/main/css/bootstrap/projeto/index.html"> onebitx </a>
                                             
                                             
