@@ -15,6 +15,7 @@ body {
 @media screen and (max-width: 1500px) {
   .bloco1 {
     min-height: 100vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -22,6 +23,7 @@ body {
 @media screen and (max-width: 900px) {
   .bloco1 {
     min-height: 30vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -29,6 +31,7 @@ body {
 @media screen and (max-width: 768px) {
   .bloco1 {
     min-height: 30vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -36,6 +39,7 @@ body {
 .bloco2 {
   background-image: url(../img/home/03.jpg);
   min-height: 50vh;
+  min-width: 100vw;
   background-size: cover;
   position: relative;
 }
@@ -43,13 +47,15 @@ body {
 @media screen and (max-width: 1500px) {
   .bloco2 {
     min-height: 100vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media screen and (max-width: 900px) {
   .bloco2 {
-    min-height: 100vh;
+    min-height: 30vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -57,6 +63,7 @@ body {
 @media screen and (max-width: 768px) {
   .bloco2 {
     min-height: 30vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -64,6 +71,7 @@ body {
 .bloco3 {
   background: url("../img/home/02.gif");
   min-height: 30vh;
+  min-width: 100vw;
   background-size: cover;
   position: relative;
 }
@@ -71,6 +79,7 @@ body {
 @media screen and (max-width: 1500px) {
   .bloco3 {
     min-height: 100vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -78,6 +87,7 @@ body {
 @media screen and (max-width: 900px) {
   .bloco3 {
     min-height: 30vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -85,6 +95,7 @@ body {
 @media screen and (max-width: 768px) {
   .bloco3 {
     min-height: 30vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
   }
