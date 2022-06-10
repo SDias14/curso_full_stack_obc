@@ -49,14 +49,14 @@ body {
 }
 @media screen and (max-width: 375px) {
   .bloco1 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media screen and (max-width: 320px) {
   .bloco1 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -105,14 +105,14 @@ body {
 }
 @media screen and (max-width: 375px) {
   .bloco2 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media screen and (max-width: 320px) {
   .bloco2 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -161,23 +161,21 @@ body {
 }
 @media screen and (max-width: 375px) {
   .bloco3 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media screen and (max-width: 320px) {
   .bloco3 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
-@media screen and (max-width: 80px) {
+@media screen and (min-width: 162px) {
   .bloco3 {
-    min-height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-width: 100vw;
   }
 }
 .img {
