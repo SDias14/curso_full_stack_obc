@@ -21,14 +21,14 @@ body {
 }
 @media screen and (max-width: 900px) {
   .bloco1 {
-    min-height: 100vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media screen and (max-width: 768px) {
   .bloco1 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -56,14 +56,14 @@ body {
 }
 @media screen and (max-width: 768px) {
   .bloco2 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 .bloco3 {
   background: url("../img/home/02.gif");
-  min-height: 60vh;
+  min-height: 30vh;
   background-size: cover;
   position: relative;
 }
@@ -77,14 +77,14 @@ body {
 }
 @media screen and (max-width: 900px) {
   .bloco3 {
-    min-height: 100vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media screen and (max-width: 768px) {
   .bloco3 {
-    min-height: 60vh;
+    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
