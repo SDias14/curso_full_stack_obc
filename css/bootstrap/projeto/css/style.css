@@ -173,6 +173,62 @@ body {
     background-size: cover;
   }
 }
+.bloco4 {
+  background-image: url(../img/home/04.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (max-width: 1500px) {
+  .bloco4 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .bloco4 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bloco4 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bloco4 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bloco4 {
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 375px) {
+  .bloco4 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bloco4 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 .img {
   width: 250px;
   height: 40px;
