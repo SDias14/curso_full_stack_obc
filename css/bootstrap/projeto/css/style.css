@@ -271,13 +271,7 @@ body {
 }
 
 .padding-b4 {
-  padding-top: 20px;
-}
-
-@media screen and (max-width: 320px) {
-  .padding-b4 {
-    padding-top: 10px;
-  }
+  padding-top: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
