@@ -274,4 +274,98 @@ body {
   padding-top: 100px;
 }
 
+.bloco5 {
+  background-image: url(../img/falcon9/01.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (max-width: 1500px) {
+  .bloco5 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .bloco5 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bloco5 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bloco5 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bloco5 {
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 375px) {
+  .bloco5 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bloco5 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.minor-letters2 {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+  .minor-letters1 {
+    font-size: 1em;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+  }
+}
+.major-letters2 {
+  padding-top: 30vh;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+  .major-letters2 {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+  }
+}
+.numbers {
+  font-size: 5em;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
