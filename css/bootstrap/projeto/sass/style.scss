@@ -309,12 +309,30 @@ body{
   font-weight: bold;
 }
 
+@media screen and (max-width: 320px) {
+  .minor-letters{
+  font-size: 1em;
+ font-family:sans-serif;
+  color:white;
+  font-weight: bold;
+  }
+}
+
 .major-letters{
   font-size: 2.5em;
   font-family:sans-serif;
   color:white;
   font-weight: bold;
 }  
+
+@media screen and (max-width: 320px) {
+  .major-letters{
+  font-size: 1.5em;
+ font-family:sans-serif;
+  color:white;
+  font-weight: bold;
+  }
+}
 
 .bloco-img-1{
   width: 80px;
@@ -324,5 +342,6 @@ body{
 }
 
 .padding-b4{
-  padding-top: 30px;
+  padding-top: 20px;
 }
+
