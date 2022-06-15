@@ -71,7 +71,7 @@ body {
     background-size: cover;
   }
 }
-@media (max-width: 320px) {
+@media (max-height: 320px) {
   .bloco2 {
     min-height: 30vh;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ body {
     background-size: cover;
   }
 }
-@media (max-width: 320px) {
+@media (max-height: 320px) {
   .bloco3 {
     min-height: 30vh;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@ body {
     background-size: cover;
   }
 }
-@media (max-width: 320px) {
+@media (max-height: 320px) {
   .bloco4 {
     min-height: 30vh;
     background-repeat: no-repeat;
