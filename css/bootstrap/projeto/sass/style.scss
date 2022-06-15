@@ -54,7 +54,7 @@ body{
   
 
 
-  @media screen and (max-width: 320px) {
+  @media (max-width: 320px) and (orientation: portrait) {
     .bloco1 {
       background-image: url(../img/home/01.jpg);
       min-height: 30vh; 
