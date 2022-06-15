@@ -543,7 +543,7 @@ body {
 }
 @media screen and (max-width: 1024px) and (max-height: 1200px) {
   .bloco5 {
-    min-height: 30vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
     font-size: 0.5em;
@@ -557,7 +557,7 @@ body {
 }
 @media screen and (max-width: 1000px) and (max-height: 1100px) {
   .bloco5 {
-    min-height: 30vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
     font-size: 0.5em;
@@ -571,7 +571,7 @@ body {
 }
 @media screen and (max-width: 800px) and (max-height: 1100px) {
   .bloco5 {
-    min-height: 30vh;
+    min-height: 175vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
     font-size: 0.5em;
@@ -585,7 +585,7 @@ body {
 }
 @media screen and (max-width: 768px) and (max-height: 1100px) {
   .bloco5 {
-    min-height: 30vh;
+    min-height: 150vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
     font-size: 0.5em;
@@ -599,7 +599,7 @@ body {
 }
 @media screen and (max-width: 600px) and (max-height: 1100px) {
   .bloco5 {
-    min-height: 30vh;
+    min-height: 140vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
     font-size: 0.5em;
@@ -613,7 +613,7 @@ body {
 }
 @media screen and (max-width: 425px) and (max-height: 1100px) {
   .bloco5 {
-    min-height: 30vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
     font-size: 0.5em;
