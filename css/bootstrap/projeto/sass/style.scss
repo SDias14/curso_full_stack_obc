@@ -52,13 +52,7 @@ body{
   }
   
   
-  @media screen and (max-width: 375px) {
-    .bloco1 {
-      min-height: 30vh; 
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  }
+
 
   @media screen and (max-width: 320px) {
     .bloco1 {
@@ -113,13 +107,7 @@ body{
   }
   
   
-  @media screen and (max-width: 375px) {
-    .bloco2 {
-      min-height: 30vh; 
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  }
+  
 
   @media screen and (max-width: 320px) {
     .bloco2 {
@@ -176,13 +164,7 @@ body{
 }
 
 
-@media screen and (max-width: 375px) {
-  .bloco3 {
-    min-height: 30vh; 
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
+
 
 @media screen and (max-width: 320px) {
   .bloco3 {
@@ -234,13 +216,6 @@ body{
     background-size: cover;
   }
 }
-@media screen and (max-width: 425px) {
-  .bloco4{
-    min-height: 60vh; 
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 
 
 
@@ -262,35 +237,18 @@ body{
  .minor-letters{
   padding-top: 25%;
   font-size: 1.5em;
-  font-family:sans-serif;
   color:white;
   font-weight: bold;
 }
 
-@media screen and (max-width: 320px) {
-  .minor-letters{
-  font-size: 1em;
- font-family:sans-serif;
-  color:white;
-  font-weight: bold;
-  }
-}
 
 .major-letters{
   font-size: 2.5em;
-  font-family:sans-serif;
   color:white;
   font-weight: bold;
 }  
 
-@media screen and (max-width: 320px) {
-  .major-letters{
-  font-size: 1.5em;
- font-family:sans-serif;
-  color:white;
-  font-weight: bold;
-  }
-}
+
 
 .bloco-img-1{
   width: 80px;
