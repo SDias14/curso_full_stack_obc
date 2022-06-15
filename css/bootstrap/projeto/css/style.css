@@ -13,7 +13,7 @@ body {
 }
 
 @media screen and (max-width: 1500px) {
-  .bloco2 {
+  .bloco1 {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,6 +45,17 @@ body {
     min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+.text-size {
+  color: white;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 320px) {
+  .text-size {
+    font-family: sans-serif;
+    font-size: 1em;
   }
 }
 .bloco2 {
