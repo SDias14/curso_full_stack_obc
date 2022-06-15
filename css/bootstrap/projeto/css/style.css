@@ -529,10 +529,15 @@ body {
     background-size: cover;
   }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1500px) and (max-height: 1800px) {
   .bloco5 {
     min-height: 100vh;
     background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 }
