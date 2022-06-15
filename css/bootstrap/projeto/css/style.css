@@ -42,20 +42,12 @@ body {
 }
 @media screen and (max-width: 320px) {
   .bloco1 {
+    background-image: url(../img/home/01.jpg);
     min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-}
-.text-size {
-  color: white;
-  font-family: sans-serif;
-}
-
-@media screen and (max-width: 320px) {
-  .text-size {
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
   }
 }
 .bloco2 {
@@ -98,6 +90,8 @@ body {
     min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
+    font-size: 0.5em;
   }
 }
 .bloco3 {
@@ -140,6 +134,8 @@ body {
     min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
+    font-size: 0.5em;
   }
 }
 .bloco4 {
@@ -182,6 +178,8 @@ body {
     min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
+    font-size: 0.5em;
   }
 }
 .img {
