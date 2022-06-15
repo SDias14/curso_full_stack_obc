@@ -26,23 +26,9 @@ body {
     background-size: cover;
   }
 }
-@media screen and (max-width: 800px) {
-  .bloco1 {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 @media screen and (max-width: 768px) {
   .bloco1 {
     min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-@media screen and (max-width: 425px) {
-  .bloco1 {
-    min-height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -82,23 +68,9 @@ body {
     background-size: cover;
   }
 }
-@media screen and (max-width: 800px) {
-  .bloco2 {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 @media screen and (max-width: 768px) {
   .bloco2 {
     min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-@media screen and (max-width: 425px) {
-  .bloco2 {
-    min-height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -138,23 +110,9 @@ body {
     background-size: cover;
   }
 }
-@media screen and (max-width: 800px) {
-  .bloco3 {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 @media screen and (max-width: 768px) {
   .bloco3 {
     min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-@media screen and (max-width: 425px) {
-  .bloco3 {
-    min-height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -194,13 +152,6 @@ body {
     background-size: cover;
   }
 }
-@media screen and (max-width: 800px) {
-  .bloco4 {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 @media screen and (max-width: 768px) {
   .bloco4 {
     min-height: 100vh;
@@ -211,13 +162,6 @@ body {
 @media screen and (max-width: 425px) {
   .bloco4 {
     min-height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-@media screen and (max-width: 375px) {
-  .bloco4 {
-    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -295,13 +239,6 @@ body {
     background-size: cover;
   }
 }
-@media screen and (max-width: 800px) {
-  .bloco5 {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 @media screen and (max-width: 768px) {
   .bloco5 {
     min-height: 100vh;
@@ -312,13 +249,6 @@ body {
 @media screen and (max-width: 425px) {
   .bloco5 {
     min-height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-@media screen and (max-width: 375px) {
-  .bloco5 {
-    min-height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
