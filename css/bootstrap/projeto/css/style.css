@@ -529,24 +529,115 @@ body {
     background-size: cover;
   }
 }
-@media screen and (max-width: 768px) {
-  .bloco5 {
+@media screen and (max-width: 1500px) {
+  .bloco4 {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
-@media screen and (max-width: 425px) {
-  .bloco5 {
-    min-height: 60vh;
+@media screen and (max-width: 1024px) {
+  .bloco4 {
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1000px) and (max-height: 1100px) {
   .bloco5 {
     min-height: 30vh;
     background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 800px) and (max-height: 1100px) {
+  .bloco5 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) and (max-height: 1100px) {
+  .bloco5 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 600px) and (max-height: 1100px) {
+  .bloco5 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 425px) and (max-height: 1100px) {
+  .bloco5 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 1100px) {
+  .bloco5 {
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1100px) {
+  .bloco5 {
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 }
