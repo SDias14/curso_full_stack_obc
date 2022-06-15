@@ -530,16 +530,23 @@ body {
   }
 }
 @media screen and (max-width: 1500px) {
-  .bloco4 {
+  .bloco5 {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
-@media screen and (max-width: 1024px) {
-  .bloco4 {
-    min-height: 100vh;
+@media screen and (max-width: 1024px) and (max-height: 1200px) {
+  .bloco5 {
+    min-height: 30vh;
     background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
   }
 }
