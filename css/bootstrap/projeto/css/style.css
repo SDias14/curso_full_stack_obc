@@ -33,7 +33,7 @@ body {
     background-size: cover;
   }
 }
-@media (max-height: 320px) {
+@media (max-width: 320px) and (max-height: 700px) {
   .bloco1 {
     min-height: 30vh;
     background-repeat: no-repeat;
@@ -41,6 +41,10 @@ body {
     font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 .bloco2 {
@@ -71,7 +75,7 @@ body {
     background-size: cover;
   }
 }
-@media (max-height: 320px) {
+@media (max-width: 320px) and (max-height: 700px) {
   .bloco2 {
     min-height: 30vh;
     background-repeat: no-repeat;
@@ -79,6 +83,10 @@ body {
     font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 .bloco3 {
@@ -109,7 +117,7 @@ body {
     background-size: cover;
   }
 }
-@media (max-height: 320px) {
+@media (max-width: 320px) and (max-height: 700px) {
   .bloco3 {
     min-height: 30vh;
     background-repeat: no-repeat;
@@ -117,6 +125,10 @@ body {
     font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 .bloco4 {
@@ -147,7 +159,7 @@ body {
     background-size: cover;
   }
 }
-@media (max-height: 320px) {
+@media (max-width: 320px) and (max-height: 700px) {
   .bloco4 {
     min-height: 30vh;
     background-repeat: no-repeat;
@@ -155,6 +167,10 @@ body {
     font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 .img {
