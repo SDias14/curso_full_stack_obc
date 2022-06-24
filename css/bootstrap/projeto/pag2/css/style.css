@@ -162,7 +162,7 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-  .minor-letters1 {
+  .minor-letters2 {
     font-size: 1em;
     font-family: sans-serif;
     color: white;
@@ -194,7 +194,7 @@ body {
 
 .bloco7 {
   background-image: url(../img/falcon9/02.jpg);
-  min-height: 80vh;
+  min-height: 90vh;
   background-size: cover;
   position: relative;
 }
@@ -287,7 +287,7 @@ body {
 
 .img-3 {
   background-image: url(../img/falcon9/03.jpg);
-  min-height: 80vh;
+  min-height: 90vh;
   background-size: cover;
   position: relative;
   color: var(--cor0);
