@@ -5,6 +5,10 @@ body {
   min-height: 100vh;
 }
 
+:root {
+  --cor0: white;
+}
+
 .bloco5 {
   background-image: url(../img/falcon9/01.jpg);
   min-height: 100vh;
@@ -275,6 +279,32 @@ body {
 .img {
   width: 250px;
   height: 40px;
+}
+
+.bloco8 {
+  width: 100%;
+}
+
+.img-3 {
+  background-image: url(../img/falcon9/03.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+}
+
+.img-4 {
+  background-image: url(../img/falcon9/04.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  position: relative;
+}
+
+.img-5 {
+  background-image: url(../img/falcon9/05.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
