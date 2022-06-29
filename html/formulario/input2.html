@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms e Input</title>
+</head>
+<body>
+    <h3>Encontre no Google</h3>
+    <form action=""></form>
+    <input type="text" name="firstname" placeholder="campo de texto">
+    <p><input type="password" name="psw" id="" placeholder="campo de senha"></p>
+    <input type="submit" value="submit">
+
+    <p>
+        <input type="radio" name="gender" value="male" checked>male <br>
+        <input type="radio" name="gender" value="female" checked>female <br>
+        <input type="radio" name="gender" value="other" checked>other <br>
+    </p><!--radio necessita ter um name igual e a diferenciação no servidor é feita pelo value-->
+
+    <p>
+        <input type="checkbox" name="veiculo1" value="Bike"> Eu tenho uma Bicicleta <br>
+        <input type="checkbox" name="veiculo2" value="Carro"> Eu tenho um Carro<br>
+    </p>
+    <!--Checkbox tem um name diferente para diferenciar no servidor-->
+
+    <p><input type="color"></p>
+
+    <p><input type="date" name="bday"></p>
+
+    <p>
+        <form>
+        Selecione um arquivo : <input type="file" name="My File">
+        </form>
+    </p>
+
+    <form>
+        <input type="search" name="googlesearch">
+    </form>
+
+
+</body>
+</html>
