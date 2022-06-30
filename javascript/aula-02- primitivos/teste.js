@@ -15,13 +15,3 @@
 //console.log(typeof null);
 
 //undefined : representação de valores não definidos.
-
-//operadores em javascript
-
-//soma : +
-
-//console.log(1 + 4);
-
-//subtração : -
-
-console.log(4 - 1);
