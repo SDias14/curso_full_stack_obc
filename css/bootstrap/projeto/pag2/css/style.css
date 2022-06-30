@@ -7,6 +7,7 @@ body {
 
 :root {
   --cor0: white;
+  --fonte-pradrao: sans-serif;
 }
 
 .bloco5 {
@@ -194,7 +195,7 @@ body {
 
 .bloco7 {
   background-image: url(../img/falcon9/02.jpg);
-  min-height: 90vh;
+  min-height: 100vh;
   background-size: cover;
   position: relative;
 }
@@ -287,7 +288,7 @@ body {
 
 .img-3 {
   background-image: url(../img/falcon9/03.jpg);
-  min-height: 90vh;
+  min-height: 100vh;
   background-size: cover;
   position: relative;
   color: var(--cor0);
@@ -295,24 +296,54 @@ body {
 
 .img-4 {
   background-image: url(../img/falcon9/04.jpg);
-  min-height: 80vh;
+  min-height: 100vh;
   background-size: cover;
   position: relative;
+  color: var(--cor0);
+  font-family: var(--fonte-pradrao);
 }
 
 .img-5 {
   background-image: url(../img/falcon9/05.jpg);
-  min-height: 80vh;
+  min-height: 100vh;
   background-size: cover;
   position: relative;
+  color: var(--cor0);
+  font-family: var(--fonte-pradrao);
+}
+
+.img-6 {
+  background-image: url(../img/falcon9/06.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+  font-family: var(--fonte-pradrao);
+}
+
+.img-7 {
+  background-image: url(../img/falcon9/07.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+  font-family: var(--fonte-pradrao);
 }
 
 #height {
   padding-left: 350px;
 }
 
+#height2 {
+  padding-left: 250px;
+}
+
 #diameter {
   padding-left: 335px;
+}
+
+#diameter2 {
+  padding-left: 220px;
 }
 
 #mass {
@@ -331,11 +362,27 @@ body {
   padding-left: 170px;
 }
 
+#motor {
+  padding-left: 250px;
+}
+
+#burn {
+  padding-left: 300px;
+}
+
+#impulse {
+  padding-left: 290px;
+}
+
 .hr-widht {
   width: 510px;
 }
 
-.padding-cr1 {
+.hr-widht2 {
+  width: 400px;
+}
+
+.padding-cr {
   padding-left: 40px;
 }
 
