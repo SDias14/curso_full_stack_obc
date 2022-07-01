@@ -353,6 +353,10 @@ body{
 .bloco8{
   width: 100%;
 }
+
+
+
+
 //===============================================
 
 .img-3 {
@@ -366,6 +370,211 @@ body{
   
 }
 
+//=== img3 
+@media screen and  (max-width: 768px) and (max-height: 1100px) {
+  .img-3 {
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .hr-widht{
+      width: 600px;
+    }
+
+    #height{
+      padding-left: 432px;
+    }
+
+    #diameter{
+      padding-left: 423px;
+    }
+
+    #mass{
+      padding-left: 363px;
+    }
+    
+    #leo{
+      padding-left: 245px;
+    }
+
+    #gto{
+      padding-left: 249px;
+    }
+
+    #mars{
+      padding-left: 238px;
+    }
+  }
+}
+
+
+@media screen and  (max-width: 600px) and (max-height: 1100px) {
+  .img-3 {
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media screen and  (max-width: 425px) and (max-height: 1100px) {
+  .img-3{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+    .hr-widht{
+      width: 350px;
+    }
+
+    #height{
+      padding-left: 265px;
+    }
+
+    #diameter{
+      padding-left: 260px;
+    }
+
+    #mass{
+      padding-left: 230px;
+    }
+    
+    #leo{
+      padding-left: 170px;
+    }
+
+    #gto{
+      padding-left: 174px;
+    }
+
+    #mars{
+      padding-left: 168px;
+    }
+
+    
+  }
+}
+
+
+
+
+@media screen and  (max-width: 375px) and (max-height: 1100px) {
+  .img-3 {
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .hr-widht{
+      width: 290px;
+    }
+
+    #height{
+      padding-left: 206px;
+    }
+
+    #diameter{
+      padding-left: 200px;
+    }
+
+    #mass{
+      padding-left: 170px;
+    }
+    
+    #leo{
+      padding-left: 110px;
+    }
+
+    #gto{
+      padding-left: 115px;
+    }
+
+    #mars{
+      padding-left: 110px;
+    }
+
+    
+  }
+}
+
+
+
+
+@media screen and  (max-width: 320px) and (max-height: 1100px) {
+  .img-3{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .hr-widht{
+      width: 250px;
+    }
+
+    #height{
+      padding-left: 165px;
+    }
+
+    #diameter{
+      padding-left: 160px;
+    }
+
+    #mass{
+      padding-left: 130px;
+    }
+    
+    #leo{
+      padding-left: 157px;
+    }
+
+    #gto{
+      padding-left: 157px;
+    }
+
+    #mars{
+      padding-left: 150px;
+    }
+
+  }
+}
+//fim img 3 
+
+
+
+
 .img-4 {
   
   background-image: url(../img/falcon9/04.jpg);
@@ -375,9 +584,97 @@ body{
   color: var(--cor0);
   font-family: var(--fonte-pradrao);
 
+  
+
 
   
 }
+
+//img-4
+@media screen and  (max-width: 768px) and (max-height: 1100px) {
+  .img-4 {
+    min-height: 150vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+@media screen and  (max-width: 600px) and (max-height: 1100px) {
+  .img-4 {
+    min-height: 140vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media screen and  (max-width: 425px) and (max-height: 1100px) {
+  .img-4{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+
+
+@media screen and  (max-width: 375px) and (max-height: 1100px) {
+  .img-4 {
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+
+
+@media screen and  (max-width: 320px) and (max-height: 1100px) {
+  .img-4{
+    min-height:100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+//fim img-4
+
+
 
 .img-5 {
   
@@ -391,6 +688,111 @@ body{
   
 }
 
+//img-5
+
+@media screen and  (max-width: 768px) and (max-height: 1100px) {
+  .img-5 {
+    min-height: 150vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+@media screen and  (max-width: 600px) and (max-height: 1100px) {
+  .img-5 {
+    min-height: 140vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media screen and  (max-width: 425px) and (max-height: 1100px) {
+  .img-5{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+
+
+@media screen and  (max-width: 375px) and (max-height: 1100px) {
+  .img-5 {
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+
+
+@media screen and  (max-width: 320px) and (max-height: 1100px) {
+  .img-5{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    #motor{
+      padding-left: 120px;
+    }
+    
+    #burn{
+      padding-left: 144px;
+    }
+    
+    #impulse{
+      padding-left: 137px;
+    }
+    
+    .hr-widht3{
+      width: 250px;
+    }
+
+    .padding-cr{
+      padding:0px;
+    }
+  }
+}
+//fim img-5
+
 .img-6 {
   
   background-image: url(../img/falcon9/06.jpg);
@@ -403,6 +805,91 @@ body{
   
 }
 
+//img-6
+@media screen and  (max-width: 768px) and (max-height: 1100px) {
+  .img-6 {
+    min-height: 150vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+@media screen and  (max-width: 600px) and (max-height: 1100px) {
+  .img-6 {
+    min-height: 140vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media screen and  (max-width: 425px) and (max-height: 1100px) {
+  .img-6{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+
+
+@media screen and  (max-width: 375px) and (max-height: 1100px) {
+  .img-6 {
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+
+
+@media screen and  (max-width: 320px) and (max-height: 1100px) {
+  .img-6{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+//fim img-6
+
 .img-7 {
   
   background-image: url(../img/falcon9/07.jpg);
@@ -414,6 +901,91 @@ body{
 
   
 }
+
+//img-7 
+@media screen and  (max-width: 768px) and (max-height: 1100px) {
+  .img-7 {
+    min-height: 150vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+@media screen and  (max-width: 600px) and (max-height: 1100px) {
+  .img-7 {
+    min-height: 140vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media screen and  (max-width: 425px) and (max-height: 1100px) {
+  .img-7{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+
+
+@media screen and  (max-width: 375px) and (max-height: 1100px) {
+  .img-7 {
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+
+
+@media screen and  (max-width: 320px) and (max-height: 1100px) {
+  .img-7{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+//fim img-7
 
 #height{
   padding-left: 350px;
