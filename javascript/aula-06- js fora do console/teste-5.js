@@ -1,0 +1,1 @@
+//usando javascript externo.
