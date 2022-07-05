@@ -627,7 +627,7 @@ body{
     min-height: 100vh; 
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.7em;
     background-size: cover;
     background-position:60% 60%;
     -webkit-background-size: cover;
@@ -702,6 +702,25 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    #motor{
+      padding-left: 340px;
+    }
+    
+    #burn{
+      padding-left: 390px;
+    }
+    
+    #impulse{
+      padding-left: 380px;
+    }
+    
+    .hr-widht3{
+      width: 600px;
+    }
+
+    .padding-cr{
+      padding:0px;
+    }
   }
 }
 
@@ -726,13 +745,33 @@ body{
     min-height: 100vh; 
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position:60% 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    #motor{
+      padding-left: 150px;
+    }
+    
+    #burn{
+      padding-left: 175px;
+    }
+    
+    #impulse{
+      padding-left: 170px;
+    }
+    
+    .hr-widht3{
+      width: 280px;
+    }
+
+    .padding-cr{
+      padding:0px;
+    }
   }
 }
 
@@ -751,6 +790,26 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    #motor{
+      padding-left: 130px;
+    }
+    
+    #burn{
+      padding-left: 150px;
+    }
+    
+    #impulse{
+      padding-left: 150px;
+    }
+    
+    .hr-widht3{
+      width: 260px;
+    }
+
+    .padding-cr{
+      padding:0px;
+    }
   }
 }
 
@@ -771,19 +830,19 @@ body{
     background-size: cover;
 
     #motor{
-      padding-left: 120px;
+      padding-left: 80px;
     }
     
     #burn{
-      padding-left: 144px;
+      padding-left: 105px;
     }
     
     #impulse{
-      padding-left: 137px;
+      padding-left: 105px;
     }
     
     .hr-widht3{
-      width: 250px;
+      width: 210px;
     }
 
     .padding-cr{
@@ -842,7 +901,7 @@ body{
     min-height: 100vh; 
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.7em;
     background-size: cover;
     background-position:60% 60%;
     -webkit-background-size: cover;
@@ -860,7 +919,7 @@ body{
     min-height: 100vh; 
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position:60% 60%;
     -webkit-background-size: cover;
@@ -878,7 +937,7 @@ body{
     min-height: 100vh; 
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position:60% 60%;
     -webkit-background-size: cover;
@@ -915,6 +974,21 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    #height2{
+      padding-left: 450px;
+    }
+    
+  
+    #diameter2{
+      padding-left: 420px;
+
+
+    }
+    
+    .hr-widht2{
+        width: 600px;
+      }
   }
 }
 
@@ -939,13 +1013,28 @@ body{
     min-height: 100vh; 
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     background-size: cover;
     background-position:60% 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    #height2{
+      padding-left: 200px;
+    }
+    
+  
+    #diameter2{
+      padding-left: 183px;
+
+
+    }
+    
+    .hr-widht2{
+        width: 320px;
+      }
   }
 }
 
@@ -957,13 +1046,32 @@ body{
     min-height: 100vh; 
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position:60% 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    #height2{
+      padding-left: 180px;
+    }
+    
+  
+    #diameter2{
+      padding-left: 170px;
+
+
+    }
+    
+    .hr-widht2{
+        width: 260px;
+      }
+
+
+
+
   }
 }
 
@@ -975,13 +1083,29 @@ body{
     min-height: 100vh; 
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position:60% 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    #height2{
+      padding-left: 150px;
+    }
+    
+  
+    #diameter2{
+      padding-left: 140px;
+
+
+    }
+    
+    .hr-widht2{
+        width: 230px;
+      }
+    
   }
 }
 
@@ -1037,6 +1161,10 @@ body{
 
 .hr-widht2{
   width: 400px;
+}
+
+.hr-widht3{
+  width: 510px;
 }
 
 

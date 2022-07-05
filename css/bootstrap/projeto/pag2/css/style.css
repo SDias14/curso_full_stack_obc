@@ -490,7 +490,7 @@ body {
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.7em;
     background-size: cover;
     background-position: 60% 60%;
     -webkit-background-size: cover;
@@ -549,6 +549,21 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+  .img-5 #motor {
+    padding-left: 340px;
+  }
+  .img-5 #burn {
+    padding-left: 390px;
+  }
+  .img-5 #impulse {
+    padding-left: 380px;
+  }
+  .img-5 .hr-widht3 {
+    width: 600px;
+  }
+  .img-5 .padding-cr {
+    padding: 0px;
+  }
 }
 @media screen and (max-width: 600px) and (max-height: 1100px) {
   .img-5 {
@@ -569,13 +584,28 @@ body {
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .img-5 #motor {
+    padding-left: 150px;
+  }
+  .img-5 #burn {
+    padding-left: 175px;
+  }
+  .img-5 #impulse {
+    padding-left: 170px;
+  }
+  .img-5 .hr-widht3 {
+    width: 280px;
+  }
+  .img-5 .padding-cr {
+    padding: 0px;
   }
 }
 @media screen and (max-width: 375px) and (max-height: 1100px) {
@@ -590,6 +620,21 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .img-5 #motor {
+    padding-left: 130px;
+  }
+  .img-5 #burn {
+    padding-left: 150px;
+  }
+  .img-5 #impulse {
+    padding-left: 150px;
+  }
+  .img-5 .hr-widht3 {
+    width: 260px;
+  }
+  .img-5 .padding-cr {
+    padding: 0px;
   }
 }
 @media screen and (max-width: 320px) and (max-height: 1100px) {
@@ -606,16 +651,16 @@ body {
     background-size: cover;
   }
   .img-5 #motor {
-    padding-left: 120px;
+    padding-left: 80px;
   }
   .img-5 #burn {
-    padding-left: 144px;
+    padding-left: 105px;
   }
   .img-5 #impulse {
-    padding-left: 137px;
+    padding-left: 105px;
   }
   .img-5 .hr-widht3 {
-    width: 250px;
+    width: 210px;
   }
   .img-5 .padding-cr {
     padding: 0px;
@@ -663,7 +708,7 @@ body {
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.7em;
     background-size: cover;
     background-position: 60% 60%;
     -webkit-background-size: cover;
@@ -677,7 +722,7 @@ body {
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
     -webkit-background-size: cover;
@@ -691,7 +736,7 @@ body {
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
     -webkit-background-size: cover;
@@ -722,6 +767,15 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+  .img-7 #height2 {
+    padding-left: 450px;
+  }
+  .img-7 #diameter2 {
+    padding-left: 420px;
+  }
+  .img-7 .hr-widht2 {
+    width: 600px;
+  }
 }
 @media screen and (max-width: 600px) and (max-height: 1100px) {
   .img-7 {
@@ -742,13 +796,22 @@ body {
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     background-size: cover;
     background-position: 60% 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .img-7 #height2 {
+    padding-left: 200px;
+  }
+  .img-7 #diameter2 {
+    padding-left: 183px;
+  }
+  .img-7 .hr-widht2 {
+    width: 320px;
   }
 }
 @media screen and (max-width: 375px) and (max-height: 1100px) {
@@ -756,7 +819,7 @@ body {
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
     -webkit-background-size: cover;
@@ -764,19 +827,37 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+  .img-7 #height2 {
+    padding-left: 180px;
+  }
+  .img-7 #diameter2 {
+    padding-left: 170px;
+  }
+  .img-7 .hr-widht2 {
+    width: 260px;
+  }
 }
 @media screen and (max-width: 320px) and (max-height: 1100px) {
   .img-7 {
     min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
     background-size: cover;
     background-position: 60% 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .img-7 #height2 {
+    padding-left: 150px;
+  }
+  .img-7 #diameter2 {
+    padding-left: 140px;
+  }
+  .img-7 .hr-widht2 {
+    width: 230px;
   }
 }
 #height {
@@ -829,6 +910,10 @@ body {
 
 .hr-widht2 {
   width: 400px;
+}
+
+.hr-widht3 {
+  width: 510px;
 }
 
 .padding-cr {
