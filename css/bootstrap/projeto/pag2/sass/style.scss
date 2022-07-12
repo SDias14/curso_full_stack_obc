@@ -20,12 +20,15 @@ body{
   
 }
 
+// root element of the page
+
 :root{
   --cor0: white;
   --fonte-pradrao: sans-serif;
 
 }
 
+// inicio do bloco 05 
 
 .bloco5 {
 
@@ -199,6 +202,10 @@ body{
       background-size: cover;
     }
   }
+
+  // fim do bloco 05 
+
+  // bloco 06 
   
   .minor-letters2{
     
@@ -240,7 +247,13 @@ body{
     color:white;
     font-weight: bold;
   }
+
+  // fim bloco 06
+
+
   //=======================================
+
+  // inicio do bloco 7 ======================================================
   
   .bloco7 {
   
@@ -350,6 +363,10 @@ body{
     height: 40px;
 }
 
+// fim do bloco 7 
+
+
+// inicio bloco 8
 .bloco8{
   width: 100%;
 }
@@ -358,6 +375,11 @@ body{
 
 
 //===============================================
+
+//inicio de imagens do carrosel falcon 9
+
+//=== img3
+
 
 .img-3 {
   
@@ -370,7 +392,7 @@ body{
   
 }
 
-//=== img3 
+ 
 @media screen and  (max-width: 768px) and (max-height: 1100px) {
   .img-3 {
     min-height: 100vh; 
@@ -573,7 +595,7 @@ body{
 //fim img 3 
 
 
-
+//img-4
 
 .img-4 {
   
@@ -590,7 +612,7 @@ body{
   
 }
 
-//img-4
+
 @media screen and  (max-width: 768px) and (max-height: 1100px) {
   .img-4 {
     min-height: 150vh; 
@@ -674,7 +696,7 @@ body{
 }
 //fim img-4
 
-
+//img-5
 
 .img-5 {
   
@@ -688,7 +710,7 @@ body{
   
 }
 
-//img-5
+
 
 @media screen and  (max-width: 768px) and (max-height: 1100px) {
   .img-5 {
@@ -852,6 +874,10 @@ body{
 }
 //fim img-5
 
+
+//img-6
+
+
 .img-6 {
   
   background-image: url(../img/falcon9/06.jpg);
@@ -864,7 +890,7 @@ body{
   
 }
 
-//img-6
+
 @media screen and  (max-width: 768px) and (max-height: 1100px) {
   .img-6 {
     min-height: 150vh; 
@@ -949,6 +975,10 @@ body{
 
 //fim img-6
 
+
+// img-7
+
+
 .img-7 {
   
   background-image: url(../img/falcon9/07.jpg);
@@ -961,7 +991,7 @@ body{
   
 }
 
-//img-7 
+
 @media screen and  (max-width: 768px) and (max-height: 1100px) {
   .img-7 {
     min-height: 150vh; 
@@ -1109,7 +1139,12 @@ body{
   }
 }
 
+// fim das imagens do carrossel falcon9
+
 //fim img-7
+
+
+// ids principais para definições de imagens em celular e tablet
 
 #height{
   padding-left: 350px;
@@ -1172,7 +1207,13 @@ body{
   padding-left: 40px;
 }
 
-//------------------
+// fim ids para definições de imagens em celular e tablet
+
+// fim do bloco 08 
+
+
+
+//------------------ inicio img-8 e bloco -09  ------------------
 
 .bloco-9{
   
@@ -1339,3 +1380,4 @@ body{
   }
 }
 
+//fim img-8
