@@ -31,7 +31,7 @@ console.log(nomeNave);
 let resposta = prompt("Deseja entrar na dobra espacial? \n 1 - sim \n 2 - não");
 console.log(resposta);
 
-let dobra = 0;
+let dobra = 1;
 
 if (resposta == 1) {
 let wrapTime = prompt ("voce realizou a dobra de numero " + dobra + " Gostaria de realizar outra dobra? \n 1 - sim \n 2 - não");
@@ -44,9 +44,9 @@ while (wrapTime == 1) {
         console.log(wrapTime);
     } 
 
-}console.log("numeros de dobras realizadas: " + dobra);
+} alert("numeros de dobras realizadas: " + dobra );
 
 } else {
-    console.log("Voce nao deseja entrar na dobra espacial");
+    alert("Voce nao deseja entrar na dobra espacial");
 }
 
