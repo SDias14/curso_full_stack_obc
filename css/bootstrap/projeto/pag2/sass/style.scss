@@ -1186,6 +1186,156 @@ body{
 }
 
 #propeller{
-  padding-left: 250px;
+  padding-left: 340px;
+}
+
+#impulse-power{
+  padding-left: 298px;
+}
+
+
+//media query para o bloco-9
+
+
+//img-7 
+@media screen and  (max-width: 768px) and (max-height: 1100px) {
+  .bloco-9 {
+    min-height: 150vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position: 60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  
+    #propeller{
+      padding-left: 507px;
+    }
+     
+    #impulse-power{
+      padding-left: 475px;
+    }
+  
+      .hr-widht3{
+          width: 700px;
+        }
+
+  }
+}
+
+
+@media screen and  (max-width: 600px) and (max-height: 1100px) {
+  .bloco-9 {
+    min-height: 140vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media screen and  (max-width: 425px) and (max-height: 1100px) {
+  .bloco-9{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    #propeller{
+      padding-left: 237px;
+    }
+     
+    #impulse-power{
+      padding-left: 210px;
+    }
+  
+      .hr-widht3{
+          width: 390px;
+        }
+
+  }
+}
+
+
+
+
+@media screen and  (max-width: 375px) and (max-height: 1100px) {
+  .bloco-9 {
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.7em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    
+    #propeller{
+      padding-left: 206px;
+    }
+     
+    #impulse-power{
+      padding-left: 185px;
+    }
+  
+      .hr-widht3{
+          width: 340px;
+        }
+
+
+
+
+  }
+}
+
+
+
+
+@media screen and  (max-width: 320px) and (max-height: 1100px) {
+  .bloco-9{
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position:60% 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  #propeller{
+    padding-left: 202px;
+  }
+   
+  #impulse-power{
+    padding-left: 185px;
+  }
+
+    .hr-widht3{
+        width: 300px;
+      }
+    
+  }
 }
 
