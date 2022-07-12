@@ -1010,13 +1010,13 @@ body {
     background-size: cover;
   }
   .bloco-9 #propeller {
-    padding-left: 168px;
+    padding-left: 170px;
   }
   .bloco-9 #impulse-power {
-    padding-left: 160px;
+    padding-left: 150px;
   }
   .bloco-9 .hr-widht3 {
-    width: 320px;
+    width: 310px;
   }
 }
 @media screen and (max-width: 320px) and (max-height: 1100px) {
