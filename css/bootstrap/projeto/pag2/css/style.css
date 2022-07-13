@@ -1042,5 +1042,300 @@ body {
     width: 300px;
   }
 }
+.ind-1 {
+  background-image: url(../img/falcon9/09.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+}
+
+.ind-2 {
+  background-image: url(../img/falcon9/10.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+}
+
+.ind-3 {
+  background-image: url(../img/falcon9/11.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+}
+
+.ind-4 {
+  background-image: url(../img/falcon9/12.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+}
+
+.ind-5 {
+  background-image: url(../img/falcon9/13.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+}
+
+.ind-6 {
+  background-image: url(../img/falcon9/14.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+}
+
+.ind-slide-1 {
+  padding-top: 1000px;
+}
+
+.ind-slide-2 {
+  padding-top: 1000px;
+}
+
+.ind-slide-3 {
+  padding-top: 1000px;
+}
+
+.ind-slide-4 {
+  padding-top: 1000px;
+}
+
+.ind-slide-5 {
+  padding-top: 1000px;
+}
+
+.ind-slide-6 {
+  padding-top: 1000px;
+}
+
+@media screen and (max-width: 375px) and (max-height: 1100px) {
+  .ind-1 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 49%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-1 {
+    padding-top: 420px;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 1100px) {
+  .ind-2 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 47%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-2 {
+    padding-top: 430px;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 1100px) {
+  .ind-3 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-3 {
+    padding-top: 440px;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 1100px) {
+  .ind-4 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 46%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-4 {
+    padding-top: 435px;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 1100px) {
+  .ind-5 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-5 {
+    padding-top: 435px;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 1100px) {
+  .ind-6 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 52%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-6 {
+    padding-top: 435px;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1100px) {
+  .ind-1 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 52%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-1 {
+    padding-top: 420px;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1100px) {
+  .ind-2 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 52% 52%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-2 {
+    padding-top: 420px;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1100px) {
+  .ind-3 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 52% 52%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-3 {
+    padding-top: 420px;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1100px) {
+  .ind-4 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 52% 52%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-4 {
+    padding-top: 420px;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1100px) {
+  .ind-5 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 80% 80%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-5 {
+    padding-top: 420px;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1100px) {
+  .ind-6 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    background-size: cover;
+    background-position: 52%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ind-slide-6 {
+    padding-top: 420px;
+  }
+}
+.bloco-11 {
+  background-image: url(../img/falcon9/15.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  color: var(--cor0);
+}
 
 /*# sourceMappingURL=style.css.map */
