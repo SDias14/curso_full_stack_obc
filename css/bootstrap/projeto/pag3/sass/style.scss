@@ -1,0 +1,106 @@
+//inicio da estilização da pagina tres.
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    //background color for the whole page
+    
+    background-color: black;
+    
+    min-height: 100vh;
+    
+  
+    
+     
+        
+    
+  }
+
+
+  // root element of the page
+
+:root{
+    --cor0: white;
+    --fonte-pradrao: sans-serif;
+  
+  }
+
+
+  .bloco-13 {
+
+    background-image: url(../img/humanFlight/01.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+  
+    
+  }
+
+  .bloco-14 {
+
+    background-image: url(../img/humanFlight/02.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+  
+    
+  }
+
+  .bloco-15 {
+
+    background-image: url(../img/humanFlight/03.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+  
+    
+  }
+
+  .bloco-16 {
+
+    background-image: url(../img/humanFlight/04.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+  
+    
+  }
+
+  
+  .bloco-17 {
+
+    background-image: url(../img/humanFlight/05.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+  
+    
+  }
+
+  .bloco-18 {
+    background-image: url(../img/humanFlight/06.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    color: var(--cor0);
+  } 
+
+
+  .minor-letters2{
+    
+    font-size: 2.5em;
+    font-family:sans-serif;
+    color:white;
+    font-weight: bold;
+  }
+
+  .major-letters2{
+    padding-top: 40vh;
+    font-size: 6.5em;
+    font-family:sans-serif;
+    color:white;
+    font-weight: bold;
+  }  
