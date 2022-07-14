@@ -29,22 +29,25 @@ body {
 .bloco-15 {
   background-image: url(../img/humanFlight/03.jpg);
   min-height: 100vh;
-  background-size: cover;
+  background-size: contain;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .bloco-16 {
   background-image: url(../img/humanFlight/04.jpg);
   min-height: 100vh;
-  background-size: cover;
+  background-size: contain;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .bloco-17 {
   background-image: url(../img/humanFlight/05.jpg);
   min-height: 100vh;
-  background-size: cover;
+  background-size: contain;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .bloco-18 {
@@ -81,7 +84,7 @@ body {
 }
 
 .minor-letters3 {
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: sans-serif;
   color: white;
   font-weight: bold;
@@ -99,8 +102,20 @@ body {
 }
 
 .padding-col {
-  padding-top: 300px;
+  padding-top: 200px;
   padding-left: 50px;
+}
+
+.pd-astronaut {
+  padding-top: 20px;
+}
+
+.pd-station {
+  padding-top: 200px;
+}
+
+.padding-last {
+  padding-top: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
