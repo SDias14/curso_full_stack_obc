@@ -15,23 +15,37 @@ Neste exercicio vamos simular o computador de uma espaçonave no momento em que 
 
 
 */
-
+// cria uma função que recebe um callback como parametro e o executa
+// no caso, a função desaccelerate recebe o parametro velocity que inicia com 150 e recebe um callback que imprime a nova velocidade. 
 function desaccelerate (velocity, printer){
     let newVelocity = velocity - 20;
     printer(newVelocity);
-
-    for (let i = 0; i < 150; i--){
-        newVelocity = newVelocity - 20;
-        printer(newVelocity);
-    }
+  // quando essa função for chamada, ela vai executar a subtração de 20 km/s a cada segundo (ou a cada iteração do laço de repetição) Ela vai ser guardada em uma variavel newVelocity e a variavel newVelocity vai ser passada como parametro para o callback printer.
 
 
+  if (newVelocity > 0){
+    desaccelerate(newVelocity, printer)
+  } else{
+    console.log("Nave parada, Desembarque Liberado")
+   
+  } 
 
-    return newVelocity;
+
+
+
+  // este laço de repetição vai receber a nova velocidade armazenada na variavel newVelocity e vai chamar a função desacelerate novamente, passando como parametro a nova velocidade e o callback printer. Essa função vai ser executada novamente até que a nova velocidade seja menor que 0. 
+    
+
+
+ 
+   // nao precisa de return, pois a função nao retorna nada.
 }
 
 let printVelocity = velocity => {
     console.log("Nova velocidade: " + velocity + " Km/s")
+    
+
+   // essa função vai imprimir a nova velocidade na tela. O velocity é passado como parametro para a função. No console.log o velocity vai ser impresso como string. 
 }
 
-let newVelocity = desaccelerate(150, printVelocity);
+let newVelocity = desaccelerate(140, printVelocity); // chamando a função desacelerar e passando a velocidade inicial e o callback para imprimir a velocidade. 
