@@ -52,7 +52,7 @@ let with9Characters = hitchedSpaceships.filter(function(currentSpaceship, index)
 
 let nameSpaceship = with9Characters [0] [0];
 
-console.log ("Nomes das naves com mais de 9 tripulantes: " +  nameSpaceship);
+alert ("Nomes das naves com mais de 9 tripulantes: " +  nameSpaceship);
 
 
 
@@ -65,7 +65,7 @@ let firstPlatform = hitchedSpaceships.findIndex(function(currentSpaceship, index
     return currentSpaceship[2] == false;
 });
 
-console.log ("Primeira plataforma em que esta a primeira nave que ainda esta com o engate pendente: " + (firstPlatform + 1));
+alert ("Primeira plataforma em que esta a primeira nave que ainda esta com o engate pendente: " + (firstPlatform + 1));
 
 
 //Destacar o nome de todas as naves colocando em caixa alta e exibindo
@@ -74,11 +74,11 @@ let upcasedSpaceships = hitchedSpaceships.map(function(currentSpaceship, index){
     return currentSpaceship[0].toUpperCase();
 } )
 
-console.log ("Nomes das naves em caixa alta: " + upcasedSpaceships);
+alert ("Nomes das naves em caixa alta: " + upcasedSpaceships);
 
 
 
 //exibir um alert com todas as informações.
 
 
-console.log ("Nomes das naves com mais de 9 tripulantes: \n" +  nameSpaceship  + "\nPrimeira plataforma em que esta a primeira nave que ainda esta com o engate pendente: \n" + (firstPlatform + 1) +"\nNomes das naves em caixa alta: \n" + upcasedSpaceships);
+alert ("Nomes das naves com mais de 9 tripulantes: \n" +  nameSpaceship  + "\nPrimeira plataforma em que esta a primeira nave que ainda esta com o engate pendente: \n" + (firstPlatform + 1) +"\nNomes das naves em caixa alta: \n" + upcasedSpaceships);
