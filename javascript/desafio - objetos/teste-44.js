@@ -22,38 +22,97 @@ Neste aplicativo, vamos cadastrar uma espaçonave com seu nome, tipo  e a veloci
 let spaceship = {
     name: "Acordeum",
     type: "SpaceShip",
+    initVelocity: 0,
     maxSpeed: 100,
+    acceleration: {
+        accelerate: function(speed) {
+            this.initVelocity += speed;
+            if (this.initVelocity > this.maxSpeed) {
+                console.log(
+                    `A velocidade atual é ${this.initVelocity} Km/s e a velocidade maxima é ${this.maxSpeed} Km/s`
+                );
+            }   else {  console.log(`A velocidade atual é ${this.initVelocity} Km/s`); }
+        }
+
+    },
+    desacceleration: {
+        desaccelerate: function(speed) {
+            this.initVelocity -= speed;
+            if (this.initVelocity < 0) {
+                console.log(`A velocidade atual é ${this.initVelocity} Km/s`);
+            } else { console.log(`A velocidade atual é ${this.initVelocity} Km/s`); }
+        }
+    }
+        
+        
+
 }
 
 
 
-//criação da função para acelerar a nave
 
-spaceship.accelerate = function (speed, acceleration) {
-  let speedUp =   spaceship.speed = speed + acceleration;
-    if (speedUp <= spaceship.maxSpeed) {
-        alert("A velocidade atual é: " + speedUp);
+// criação do menu
+
+let menu = prompt("Digite A para acelerar ou D para desacelerar");
+
+// verificação do menu
+
+    if (menu == "A"){
+      let newVelocity = prompt("Digite a velocidade que deseja acelerar");
+    console.log(newVelocity);
+    console.log (typeof newVelocity);
+    //transformando a string em numero
+    newVelocity = parseInt(newVelocity);
+    console.log(newVelocity);
+    console.log(typeof newVelocity);
+        spaceship.acceleration.accelerate(newVelocity);  
+    } else if (menu == "D"){
+        let newVelocity = prompt("Digite a velocidade que deseja desacelerar");
+        spaceship.desacceleration.desaccelerate(parseInt(newVelocity));
     } else {
-        spaceship.speed = speedUp;
-        console.log("A velocidade atual é: " + spaceship.speed);
-
-        
+        alert("Opção inválida");
     }
 
-    
-}
 
 
-spaceship.decelerate = function (speed) {
-    if (spaceship.speed - speed < 0) {
-        console.log("A velocidade atual é: " + spaceship.speed + " e a velocidade maxima é: " + spaceship.maxSpeed);
-    } else {
-        spaceship.speed -= speed;
-        console.log("A velocidade atual é: " + spaceship.speed);
-    } 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // criação menu
+
+
+
+
+
+/*
 
 let menu = function () {
     let option = prompt("Digite 1 para acelerar ou 2 para desacelerar");
@@ -79,6 +138,7 @@ let accelerations = prompt("Qual aceleração desejada?");
 
 spaceship.accelerate(0, parseInt(accelerations))
 
+*/
 
 
 
