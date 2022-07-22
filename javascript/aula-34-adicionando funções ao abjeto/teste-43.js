@@ -1,116 +1,37 @@
-//  comparando objetos e arrays 
+//  adicionando funções ao objeto
 
-//aninhar : objetos dentro de objetos
 
-// aninhar : arrays dentro de objetos
-
-/*
+//os objetos podem receber funções. Quando isso acontece a funcao é chamada de metodo.
 
 let spaceship = {
-    name : 'Enterprise',
-    type: 'freighter',
-    crew: ['Captain', 'Commander', 'Engineer', 'Doctor'], //array dentro de objeto
+    name : 'Enterprise', //atributo
+    type : 'extraction', //atributo
+    maxCrew : 20, //atributo
+    turnOn : function(){
+        console.log('Lights on');
+        console.log('Winding up');
+    } // metodo
+
+
 }
 
-//acrescentando mais um crew member
+//chamando o metodo
 
-    spaceship.crew.push('Security');
+    spaceship.turnOn();
 
-    console.log(spaceship.crew);
+    spaceship.velocity = 100;
 
-    */
-
-
-    //aninhar objetos dentro de arrays
-
-    /*
-
-    let spaceships = [
-        {name : 'elemental', type: 'freighter' , crewQuantity: 10},
-        {name: 'colossus' , type: 'freighter' , crewQuantity: 20},
-        {name: 'enterprise' , type: 'freighter' , crewQuantity: 30},
-    ]
-
-    let nameFirstSpaceship = spaceships[0].name;
-
-    console.log(nameFirstSpaceship);
-
-    let nameSecondSpaceship = spaceships[1].name;
-
-    console.log(nameSecondSpaceship);
-
-    let nameThirdSpaceship = spaceships[2].name;
-
-    console.log(nameThirdSpaceship);
-
-    let crewFirstSpaceship = spaceships[0].crewQuantity;
-
-    console.log(crewFirstSpaceship);
-
-    let crewSecondSpaceship = spaceships[1].crewQuantity;   
-
-    console.log(crewSecondSpaceship);
-
-    let crewThirdSpaceship = spaceships[2].crewQuantity;
-
-    console.log(crewThirdSpaceship);
-
-    */
-
-    // percorrendo um array de objetos
-
-    /*
-
-    let spaceships = [
-        {name : 'elemental', type: 'freighter' , crewQuantity: 10},
-        {name: 'colossus' , type: 'freighter' , crewQuantity: 20},
-        {name: 'enterprise' , type: 'freighter' , crewQuantity: 30},
-    ]
-
-    for(let i = 0; i < spaceships.length; i++){
-        console.log(spaceships[i].name);
+    spaceship.speedUp = function( acceleration){
+        this.velocity += acceleration;
     }
 
-    */
+  console.log(spaceship);
 
-// percorrendo um array de objetos
+  spaceship.speedUp(10);
 
-/*
-    let spaceships = [
-        {name : 'elemental', type: 'freighter' , crewQuantity: 10},
-        {name: 'colossus' , type: 'freighter' , crewQuantity: 20},
-        {name: 'enterprise' , type: 'freighter' , crewQuantity: 30},
-    ]
+    console.log(spaceship);
 
-    spaceships.forEach(function(spaceship){
-        console.log(spaceship.name + ' tem ' + spaceship.crewQuantity + ' crew members');
-    })
-
-    */
-
-    //objeto dentro de objeto
-
-    let spaceship = {
-        name : 'Enterprise',
-        maxCrew: 20,
-        captain: {
-            name : 'Hugo',
-            age : 'unknown',
-        }
-
-
-    }
-
-    //acessando o objeto dentro de um objeto
-
-    console.log(spaceship.captain.name);
-
-    console.log(spaceship.captain.age);
-
-    console.log(spaceship.captain.name + ' tem ' + spaceship.captain.age + ' anos');
-
-
-
+   
 
 
 
