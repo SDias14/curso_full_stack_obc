@@ -22,143 +22,73 @@ Neste aplicativo, vamos cadastrar uma espaçonave com seu nome, tipo  e a veloci
 let spaceship = {
     name: "Acordeum",
     type: "SpaceShip",
-    initVelocity: 0,
+    velocity: 0,
     maxSpeed: 100,
-    acceleration: {
-        accelerate: function(speed) {
-            this.initVelocity += speed;
-            if (this.initVelocity > this.maxSpeed) {
-                console.log(
-                    `A velocidade atual é ${this.initVelocity} Km/s e a velocidade maxima é ${this.maxSpeed} Km/s`
-                );
-            }   else {  console.log(`A velocidade atual é ${this.initVelocity} Km/s`); }
-        }
 
-    },
-    desacceleration: {
-        desaccelerate: function(speed) {
-            this.initVelocity -= speed;
-            if (this.initVelocity < 0) {
-                console.log(`A velocidade atual é ${this.initVelocity} Km/s`);
-            } else { console.log(`A velocidade atual é ${this.initVelocity} Km/s`); }
+}
+
+spaceship.accelerate = function(acceleration) {
+   newVelocity =  this.velocity += acceleration;
+   console.log (newVelocity)
+
+   // laço de repetição para incrementar a velocidade
+
+  while (newVelocity < this.maxSpeed) {
+    answer =  prompt("Do you want to accelerate desaccelerate or stop? (a/d/s)");
+        if (answer == "a") {
+            newVelocity += acceleration;
+            console.log(newVelocity);
+        } else if (answer == "d") {
+            newVelocity -= acceleration;
+            console.log(newVelocity);
+        } else if (answer == "s") {
+            console.log(`${this.name} is stopped at ${this.velocity}`);
+            break;
+        } else {
+            console.log("Invalid option");
         }
-    }
-        
-        
+  }
+
+
+
+} 
+
+spaceship.desaccelerate = function(acceleration) {
+    newVelocity =  this.velocity -= acceleration;
+    console.log (newVelocity)
 
 }
 
 
 
 
-// criação do menu
-
-let menu = prompt("Digite A para acelerar ou D para desacelerar");
-
-// verificação do menu
-
-    if (menu == "A"){
-      let newVelocity = prompt("Digite a velocidade que deseja acelerar");
-    console.log(newVelocity);
-    console.log (typeof newVelocity);
-    //transformando a string em numero
-    newVelocity = parseInt(newVelocity);
-    console.log(newVelocity);
-    console.log(typeof newVelocity);
-        spaceship.acceleration.accelerate(newVelocity);  
-    } else if (menu == "D"){
-        let newVelocity = prompt("Digite a velocidade que deseja desacelerar");
-        spaceship.desacceleration.desaccelerate(parseInt(newVelocity));
-    } else {
-        alert("Opção inválida");
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// criação menu
-
-
-
-
-
-/*
-
-let menu = function () {
-    let option = prompt("Digite 1 para acelerar ou 2 para desacelerar");
-    if (option == 1) {
-        let speed = prompt("Digite a velocidade que deseja acelerar");
-        spaceship.accelerate(spaceship.speed, speed);
-    } else if (option == 2) {
-        let speed = prompt("Digite a velocidade que deseja desacelerar");
-        spaceship.decelerate(speed);
-    } else {
-        console.log("Opcao invalida");
-    }
-
-    return speed;
+spaceship.stop = function() {
+    console.log(`${this.name} is stopping`);
+    console.log(`${this.name} is at ${this.velocity}`);
 }
 
 
-alert ("Bem vindo ao " + spaceship.name + " " + spaceship.type);
 
-alert ( menu() );
 
-let accelerations = prompt("Qual aceleração desejada?");
+//mandando o valor para o metodo accelerate
 
-spaceship.accelerate(0, parseInt(accelerations))
-
-*/
+let menu = prompt("Do you want to accelerate or decelerate? (a/d)"); //prompt para o usuario escolher se quer acelerar ou desacelerar
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (menu === "a") {
+    let acceleration = prompt("How much do you want to accelerate?");
+    let transform = parseInt(acceleration);
+    spaceship.accelerate(transform);
   
+} else if (menu === "d") {
+    let acceleration = prompt("How much do you want to decelerate?");
+    spaceship.desaccelerate(acceleration);
+} else {
+    console.log("Invalid option");
+}
+
+    
 
 
     
@@ -166,3 +96,21 @@ spaceship.accelerate(0, parseInt(accelerations))
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
