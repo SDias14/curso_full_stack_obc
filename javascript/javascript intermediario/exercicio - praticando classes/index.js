@@ -73,7 +73,10 @@ if (menu == 1) {
     let spaceship = new Spaceship(nome, trip);
 
     alert(`A nave ${spaceship.name} possui ${spaceship.crew} tripulantes e está ${spaceship.isEngaged}`);
+
+
     
+    //ate aqui ok 
     
     let confirmation = prompt ( 'Tem mais alguma nave que queira incluir ? \n digite 1 para continuar digitando  2 para exibir as naves cadastradas e 3 para cancelar');
     
@@ -86,26 +89,66 @@ if (menu == 1) {
         spaceship = new Spaceship(nome, trip);
 
         alert(`A nave ${spaceship.name} com ${spaceship.crew} tripulantes foi ${spaceship.isEngaged} e as portas estão ${spaceship.isDoorOpen}`);
+
+        //ok ate aqui
         
-        confirmation = prompt ( 'Tem mais alguma nave que queira incluir ? \n digite 1 para continuar digitando ou 2 para exibir as naves')
+       confirmation = prompt ( 'Tem mais alguma nave que queira incluir ? \n digite 1 para continuar digitando  2 para exibir as naves cadastradas e 3 para cancelar')
 
-      if (confirmation == 2) {
-            alert(`A nave ${spaceship.name} com ${spaceship.crew} tripulantes foi ${spaceship.isEngaged} e as portas estão ${spaceship.isDoorOpen}`);
+    }
 
-            while (confirmation == 2) {
-                confirmation = prompt ( 'Tem mais alguma nave que queira incluir ? \n digite 1 para continuar digitando ou 2 para exibir as naves')
-            }
-        }
+       if (confirmation == 2) {
+           alert(`A nave ${spaceship.name} com ${spaceship.crew} tripulantes foi ${spaceship.isEngaged} e as portas estão ${spaceship.isDoorOpen}`);
 
-        if (confirmation == 3) {
-            alert('Programa encerrado');
-        }
+              confirmation = prompt ( 'Tem mais alguma nave que queira incluir ? \n digite 1 para continuar digitando  2 para exibir as naves cadastradas e 3 para cancelar')
 
+              //ok ate aqui
+
+              while (confirmation == 1) {
+                  nome = nome + ' ' + prompt ( 'Digite o nome da nave')
+                  
+                  trip = trip + ' ' + prompt ( 'Digite o numero de tripulantes')
+                  
+                  spaceship = new Spaceship(nome, trip);
+
+                  alert(`A nave ${spaceship.name} com ${spaceship.crew} tripulantes foi ${spaceship.isEngaged} e as portas estão ${spaceship.isDoorOpen}`);
+
+                  //ok ate aqui
+                  
+                 confirmation = prompt ( 'Tem mais alguma nave que queira incluir ? \n digite 1 para continuar digitando  2 para exibir as naves cadastradas e 3 para cancelar')
+
+              
+
+                if (confirmation == 2) { 
+                    alert(`A nave ${spaceship.name} com ${spaceship.crew} tripulantes foi ${spaceship.isEngaged} e as portas estão ${spaceship.isDoorOpen}`);
+
+                          confirmation = prompt ( 'Tem mais alguma nave que queira incluir ? \n digite 1 para continuar digitando  2 para exibir as naves cadastradas e 3 para cancelar')
+                } else if (confirmation == 3) {
+                    alert('Obrigado por utilizar o programa');
+                } else {
+                    alert('Opção inválida');
+                }
+            }   
+
+        } else if (confirmation == 3) {
+              alert('Obrigado por utilizar o programa');
+         } else {
+             alert('Opção inválida');           
+         } 
+        
+        
+        } else if (menu == 2) {
+
+            alert('nenhuma nave cadastrada');
+        
+    } else if (menu == 3) {
+        alert('Programa encerrado');
+    } else {
+        alert('Opção inválida');
     }
 
         
 
-    }
+    
 
 
 
