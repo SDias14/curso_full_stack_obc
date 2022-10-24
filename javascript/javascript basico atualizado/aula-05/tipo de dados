@@ -1,0 +1,18 @@
+podem ser representaddos de diversas maneiras. 
+
+tipos primitivos - são os tipos mais simples que existem 
+
+ex : number e bigint : number (serve tanto para inteiros quanto decimais e reais)
+(bigint : usado para representar numeros muito grandes. tem que colocar o n na frente)
+string (cadeia de caracteres) a string é um vetor. 
+boolean - true or false. 
+null e undefined. - null : é um valor nulo ou vazio mas que tem um valor. 
+undefined - nao recebe nada.
+
+tipos de dados que nao sao primitivos : 
+
+objetos e funções. 
+
+objeto é uma estrutura , um conjunto de varias informações. 
+
+funções = procedimentos. 

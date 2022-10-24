@@ -1,0 +1,18 @@
+variaveis - são espaços alocados na memoria para armazenar informações temporariamente. 
+
+para criar variaveis no javascript : 
+
+palavras reservadas : var, let, const
+
+let = forma mais moderna de declarar as variaveis no javascript.
+
+let(let it change)
+
+const = nao podemos mudar o valor. é uma variavel constante. 
+
+nomeando variaveis = nomes significativos. 
+
+nao conseguimos criar duas variaveis do mesmo nome no mesmo escopo. 
+
+cases - camelCase
+snake_case
