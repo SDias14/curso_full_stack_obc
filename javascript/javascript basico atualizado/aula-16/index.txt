@@ -1,0 +1,19 @@
+arrays -
+
+tipo de estrutura de dados e ele é usado para trabalhar com todo tipo de lista 
+
+elementos de array sempre começam com 0 
+
+pode armazenar qualquer tipo de dados e ter qualquer tamanho 
+
+array usamos colchete no javascript
+
+possuem varias funcoes 
+
+enfileirar e desenfileirar 
+
+empilhar e desempilhar 
+
+achar o indice de um valor 
+
+cortar e concatenar

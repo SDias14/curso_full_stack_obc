@@ -1,0 +1,17 @@
+operadores logicos
+
+avaliar expressoes envolvendo valores booleanos 
+
+
+Qual é o resultado da expressão: true && false || false && true
+
+r : false 
+
+
+Qual é o resultado da expressão: !true && (false || true) || false
+
+false 
+
+
+Qual é o resultado da expressão: true && false || true || false && true
+

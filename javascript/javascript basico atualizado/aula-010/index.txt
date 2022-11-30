@@ -1,0 +1,5 @@
+if else , 
+
+estrutura de controle. 
+
+condicionais, apenas se a condição for verdadeira. 

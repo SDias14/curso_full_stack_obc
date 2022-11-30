@@ -1,0 +1,4 @@
+comparação de valores 
+
+as comparações sempre retornam um booleano 
+

@@ -1,0 +1,40 @@
+trabalhar com arrays
+
+adicionar elementos no array 
+
+push - adicionar um elemento no final de um array (estrutura de pilha)
+
+unshift - adicionar elementos no começo do array (estrutura de filha)
+
+pop - remove o ultimo elemento do array (estrutura de pilha)
+
+shift - remove elementos no começo do array 
+
+pesquisar por elementos 
+
+
+includes - ver se consta no array 
+
+array.includes (ve se tem o elemento no array- devolve verdadeiro ou falso )
+
+indexOf- pesquisa pelo indice. 
+
+Cortar e concatenar arrays 
+
+
+slice - corta parte do array, nao modificando o array. 
+
+concatenar arrays 
+
+concat
+
+
+substituir elementos - 
+
+splice - remove e substitui por outros elementos
+
+iterar sobre arrays 
+
+
+foreach 
+

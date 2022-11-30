@@ -1,0 +1,1 @@
+do while - faz com que o codigo rode pelo menos uma vez. 

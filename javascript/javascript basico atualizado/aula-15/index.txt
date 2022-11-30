@@ -1,0 +1,26 @@
+estruturas de dados 
+
+modo particular de organizar os dados
+
+formas mais complexas para armazenar dados. usar de forma mais eficiente. 
+
+estrutura de dados classicas 
+
+- lista ligada : coleção ordenada de valores onde cada elemento aponta para o proximo 
+
+- array - coleção de elementos que podem ser identificados pelo indice
+
+- fila (Queue) coleção de elementos onde o primeiro elemento a ser retirado deve ser o primeiro a ser adicionado. - chamadas de lista fifo 
+
+-pilha (stack) ele é o inverso da fila 
+
+arvore - tree (conjunto de elementos chamados de nos orgazinados em estrutura hierarquica (nao sequencial), ou seja podendo estar abaixo ou acima de outros nos )
+
+estruturas de dados no javascript 
+
+arrays - que sao listas 
+
+dicionarios - Objetos. ( coleção de elementos onde temos chaves como se fossem nomes e valor )
+
+
+valor e referencia - 
