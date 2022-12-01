@@ -1,0 +1,47 @@
+objetos 
+
+é uma estrutura para trabalhar com dicionarios chave-valor 
+
+a chave é o nome da propriedade 
+
+
+valor : o que esta armazenado dentro da propriedade 
+
+os elementos nao possuem sequencia. 
+
+uma propriedade pode ter strings, numeros e booleanos. 
+
+pode armazenar qualquer tipo de dados. 
+
+criado com chaves; 
+
+suas funções pode ser referenciada com ponto.
+
+questoes : 
+
+
+
+Qual dos itens abaixo é uma função existente nos arrays do javascript:
+
+splice()
+
+
+Qual dos itens abaixo não é um array:
+
+{ “A”: [ “1”, “B”, “2” ], “C”: “3”, [ “D”, “4” ] }
+
+let matriz = [ [ 0, 1, 2, 3, 4 ], [ 5, 6, 7, 8, 9 ], [ 10, 11, 12, 13, 14 ], [ 15, 16, 17, 18, 19 ], 20 ]
+
+Qual será o valor de matriz[3][2]?
+
+
+17
+
+
+Considere o mesmo array da questão anterior. Qual será o valor de matriz[4][1]?
+
+undefined
+
+Qual dos itens abaixo não é uma forma válida de acessar uma propriedade de um objeto? (considere o obj = { prop: “valor” } e a variável prop = “prop”)
+
+obj.”prop”

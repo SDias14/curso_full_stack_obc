@@ -1,0 +1,75 @@
+high order functions 
+
+é uma funcao que recebe outra funcao como parametro 
+
+javascript suporta paradigma orientado a funcao 
+
+ex: 
+
+function calcular(a,b, operacao){
+    console.log("realizando operacao")
+    const resultado = operacao(a,b)
+    return resultado
+} // hof - high order function
+
+
+function somar(a,b){
+   console.log("somando")
+    return a + b
+}
+
+calcular(2,3, somar)
+
+
+arrays com hof - for each 
+
+metodo map faz um mapeamento para um novo array  / nao altera o array original 
+
+segundo metodo : filter 
+
+cria novo array com elementos e filtra. 
+
+nao altera o array original 
+
+
+terceiro metodo : reduce 
+
+transforma array em outro elemento. 
+
+nao altera o array original 
+
+quarto metodo = sort 
+
+ele modifica o array 
+
+altera o array original 
+
+
+testes 
+
+O que é uma high-order function?
+
+r: É uma função que recebe uma outra função como parâmetro
+
+Em arrays do javascript, o que faz a função “map”?
+
+r: Itera sobre cada elemento de um array e cria um novo array baseado nele
+
+
+O que é uma função recursiva?
+
+r: É uma função que chama ela mesma
+
+
+Qual das alternativas abaixo representa a forma correta de se criar uma função anônima:
+
+
+function () {
+
+ // ...
+
+}
+
+Sobre as funções no javascript, marque a alternativa incorreta:
+
+Uma função só pode ser chamada no código após a sua inicialização, não é possível referenciar uma função acima da sua declaração

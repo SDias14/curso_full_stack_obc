@@ -1,0 +1,5 @@
+escopo de funcao
+
+contexto em que a variavel é observada 
+
+escopo global que é visto em todo o codigo e o escopo local é visto somente dentro de uma função ou bloco de codigo

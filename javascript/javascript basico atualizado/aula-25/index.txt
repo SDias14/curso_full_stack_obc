@@ -1,0 +1,11 @@
+funcoes anonimas 
+
+ponto importante :
+
+temos como colocar uma funcao dentro de uma constante 
+
+quando vamos atribuir essa funcao temos que somente colocar o nome da funcao 
+
+se colocarmos o nome da funcao junto com os parenteses estamos na verdade chamando o retorno dessa funcao 
+
+quando colocamos uma funcao dentro de uma variavel nao é necessario dar nome pra ela. 

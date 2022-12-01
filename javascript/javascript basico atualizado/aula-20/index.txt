@@ -1,0 +1,22 @@
+função
+
+declarar um procedimento para chamar sempre quando queremos 
+
+
+podemos ver como entrada, procedimento, saida 
+
+tanto a entrada quanto a saida sao opcionais , podendo existir sem eles 
+
+as entradas sao parametros 
+
+as saidas é o retorno 
+
+
+
+parametros de função 
+
+parametro é uma variavel que fica dentro da função mas que é chamada fora da funcao
+
+ordem dos parametros é muito importante 
+
+

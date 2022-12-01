@@ -1,0 +1,5 @@
+arrays bidimensionais
+
+matrizes como sao conhecidos 
+
+console.table() gera uma vizualização como tabela mesmo 
