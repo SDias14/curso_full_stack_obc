@@ -1,0 +1,19 @@
+o que é o dom ?
+
+especificação : DOM (Document Object Model)
+
+ele é um modelo da pagina html 
+
+a pagina html é referenciada no javascript como documento 
+
+e o dom é a transformação deste documento em um objeto javascript
+
+o dom permite que um documento escrito em html , xml seja acessado. 
+
+o dom cria uma arvore de objetos. 
+
+dom é um mapeamento da pagina html em formato de arvore
+
+permite que tenhamos acesso direto a pagina html para manipulá-la de varias formas
+
+o dom é um intermediario entre javascript e html 

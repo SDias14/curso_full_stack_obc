@@ -1,0 +1,17 @@
+criando novos elementos no dom 
+
+o dom nos permite adicionar dinamicamente novos elementos html ao documento. 
+
+para isso precisamos 
+
+criar o elemento 
+
+document.createElement()
+
+adicionar conteudo ao elemento 
+
+new.Element.innerHTML = "Ola, mundo"
+
+adicionar o elemento como um novo no no dom 
+
+element.appendChild(newElement)

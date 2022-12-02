@@ -1,0 +1,17 @@
+eventos - forma dinamica de executar javascript dentro de uma pagina HTML 
+
+com o Dom conseguimos executar os nosso codigos javascript sem travar a pagina html 
+
+na tag colocamos o evento que geralmente vai comecar com on 
+
+onmouseenter = acionado toda vez que o mouse é passado por cima de um campo 
+
+
+changeevent = quando digitamos algo no campo e alteramos o valor , clicando fora do campo ele muda o valor.
+
+onfocus - quando entramos no input ele foca no elemento 
+
+onblur - desfocar o elemento 
+
+
+onclick - quando clicamos 

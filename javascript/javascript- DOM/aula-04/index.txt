@@ -1,0 +1,29 @@
+obtendo elementos HTML do dom 
+
+o dom permite ler elementos especificos do html 
+
+metodo que obtem varios elementos em uma html colection(objeto) : 
+
+document.getElementByTagname()
+
+document.getElementByClassName()
+
+
+metodos para receber elementos em uma nodelist(formato parecido com array, uma lista ): 
+
+document.getElementByName()
+
+document.querySelectorAll()
+
+
+obtendo um unico elemento 
+
+
+document.GetElementById()
+
+document.querySelector()
+
+nodelist tem metodos diferentes e mais completos que o html collection
+
+
+
