@@ -1,0 +1,214 @@
+form.addEventListener ('submit', function (event) {
+    
+    event.preventDefault(); // previne o comportamento padrão do form
+
+    
+
+   const contactSection = document.getElementById('newInputs');
+
+   const div = document.createElement('div'); // cria um elemento div
+    
+    const techNameInput = document.createElement('input'); // cria um elemento input
+    
+    techNameInput.type = 'text'; // define o tipo do elemento input como text
+    
+    techNameInput.name = 'techname'; // define o nome do elemento input como name
+    
+    techNameInput.id = 'techname'; // define o id do elemento input como techname
+    
+    techNameInput.placeholder = 'Tecnologia'; // define o placeholder do elemento input como name
+    
+    div.appendChild(techNameInput); // adiciona o elemento input como filho do elemento div
+    
+    div.appendChild(document.createElement('br')); // adiciona um elemento br como filho do elemento div
+    
+    // grupo de input para ano de conhecimento da tecnologia 
+    
+    const techYearInput = document.createElement('input'); // cria um elemento input
+    
+    techYearInput.type = 'radio'; // define o tipo do elemento input como number
+    
+    techYearInput.name = 'techyear'; // define o nome do elemento input como techyear
+    
+    techYearInput.id = 'techyear'; // define o id do elemento input como techyear
+    
+    techYearInput.value = '1'; // define o valor do elemento input como 1
+    
+    div.appendChild(techYearInput); // adiciona o elemento input como filho do elemento div
+    
+    const labelTechYearInput = document.createElement('label'); // cria um elemento label
+    
+    labelTechYearInput.for = 'techyear'; // define o for do elemento label como techyear
+    
+    labelTechYearInput.innerText = '0 a 1 ano'; // adiciona o texto '1 ano' ao elemento label
+    
+    div.appendChild(labelTechYearInput); // adiciona o elemento label como filho do elemento div
+    
+    div.appendChild(document.createElement('br')); // adiciona um elemento br como filho do elemento div
+    
+    const techYearInput2 = document.createElement('input'); // cria um elemento input
+    
+    techYearInput2.type = 'radio'; // define o tipo do elemento input como number
+    
+    techYearInput2.name = 'techyear'; // define o nome do elemento input como techyear
+    
+    techYearInput2.id = 'techyear'; // define o id do elemento input como techyear
+    
+    techYearInput2.value = '2'; // define o valor do elemento input como 2
+    
+    div.appendChild(techYearInput2); // adiciona o elemento input como filho do elemento div
+    
+    const labelTechYearInput2 = document.createElement('label'); // cria um elemento label
+    
+    labelTechYearInput2.for = 'techyear'; // define o for do elemento label como techyear
+    
+    labelTechYearInput2.innerText = '1 a 2 anos'; // adiciona o texto '2 anos' ao elemento label
+    
+    div.appendChild(labelTechYearInput2); // adiciona o elemento label como filho do elemento div
+    
+    div.appendChild(document.createElement('br')); // adiciona um elemento br como filho do elemento div
+    
+    const techYearInput3 = document.createElement('input'); // cria um elemento input
+    
+    techYearInput3.type = 'radio'; // define o tipo do elemento input como number
+    
+    techYearInput3.name = 'techyear'; // define o nome do elemento input como techyear
+    
+    techYearInput3.id = 'techyear'; // define o id do elemento input como techyear
+    
+    techYearInput3.value = '3'; // define o valor do elemento input como 3
+    
+    div.appendChild(techYearInput3); // adiciona o elemento input como filho do elemento div
+    
+    const labelTechYearInput3 = document.createElement('label'); // cria um elemento label
+    
+    labelTechYearInput3.for = 'techyear'; // define o for do elemento label como techyear
+    
+    labelTechYearInput3.innerText = '2 a 3 anos'; // adiciona o texto '3 anos' ao elemento label
+    
+    div.appendChild(labelTechYearInput3); // adiciona o elemento label como filho do elemento div
+    
+    div.appendChild(document.createElement('br')); // adiciona um elemento br como filho do elemento div
+    
+    
+    ///// botao submit 
+
+    const submitButton = document.createElement('button'); // cria um elemento button
+
+    submitButton.type = 'submit'; // define o tipo do elemento button como submit
+
+    submitButton.innerText = 'Enviar'; // adiciona o texto 'Enviar' ao elemento button
+
+    div.appendChild(submitButton); // adiciona o elemento button como filho do elemento div
+
+    //clica no botao submit e envia os dados
+
+    submitButton.addEventListener('click', function (event) {
+
+        event.preventDefault(); // previne o comportamento padrão do button
+
+        let devs = []; // cria um array vazio
+        
+
+
+        const fullName = document.querySelector('#name').value; // seleciona o input pelo id
+
+       
+
+        const techName = document.getElementById('techname').value; // seleciona o elemento input pelo id e pega o valor do input
+
+        const techYear = document.getElementById('techyear').value; // seleciona o elemento input pelo id e pega o valor do input
+
+        let tech = { // cria um objeto tech
+
+            fullName, // adiciona a propriedade fullName com o valor da variável fullName
+
+            techName, // adiciona a propriedade techName ao objeto tech
+
+            techYear, // adiciona a propriedade techYear ao objeto tech
+
+        };  
+
+       
+
+       
+        //ao salvar os dados, limpa os campos e continua adicionando novos devs
+
+        document.getElementById('name').value = ''; // seleciona o elemento input pelo id e limpa o valor do input
+
+        document.getElementById('techname').value = ''; // seleciona o elemento input pelo id e limpa o valor do input
+
+        document.getElementById('techyear').value = ''; // seleciona o elemento input pelo id e limpa o valor do input
+
+
+// atualiza o array com novos devs
+
+devs.push(tech); // adiciona o objeto tech ao array devs
+
+console.log(devs); // exibe no console o array devs
+
+
+});
+
+
+
+
+ 
+    
+// botao para remover os inputs radio 
+    
+    const removeTechYearInput = document.createElement('button'); // cria um elemento button
+    
+    removeTechYearInput.type = 'button'; // define o tipo do elemento button como button
+    
+    removeTechYearInput.innerText = 'Remover'; // adiciona o texto 'Remover' ao elemento button
+    
+    removeTechYearInput.addEventListener('click', function(){ 
+
+    div.removeChild(techYearInput); // remove o elemento input do elemento div
+        
+        div.removeChild(labelTechYearInput); // remove o elemento label do elemento div
+        
+        div.removeChild(techYearInput2); // remove o elemento input do elemento div
+        
+        div.removeChild(labelTechYearInput2); // remove o elemento label do elemento div
+        
+        div.removeChild(techYearInput3); // remove o elemento input do elemento div
+        
+        div.removeChild(labelTechYearInput3); // remove o elemento label do elemento div
+        
+        div.removeChild(removeTechYearInput); // remove o elemento button do elemento div
+        
+    });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    contactSection.append(div, removeTechYearInput  ) // adiciona o elemento h3 e div como filho do elemento contactSection
+    
+});
+
+
+
