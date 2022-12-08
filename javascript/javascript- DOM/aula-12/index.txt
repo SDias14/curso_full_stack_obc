@@ -1,0 +1,18 @@
+session storage : forma simples de armazenar dados no navegador durante a sessao. 
+
+persistem mesmo apos mudar de pagina em um mesmo site enquanto a aba / janela estiver aberta 
+
+existem somente enquanto a aba daquele site esta aberta , ao fechar o session Storage é limpo. 
+
+localStorage : dados armazenados no navegador que persistem mesmo apos fechar a aba/ janela do navegador 
+
+existem para sempre ate serem removidos. nao possuem data de expiração. 
+
+
+Cookies - dados armazenados em pequenos arquivos de texto no computador do cliente 
+
+podem possuir uma data de expiração. 
+
+a forma mais tradicional de permitir lembrar de informações mesmo depois de fechar o navegador 
+
+sao enviados nas requisições e podem existir no servidor. sendo devolvidos quando uma pagina html for solicitada. 
