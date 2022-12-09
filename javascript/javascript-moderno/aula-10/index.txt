@@ -18,3 +18,37 @@ let c = a || 42
 let c = a ?? 42 // c sera 0, pois 0 e falsy, mas nao nullish
 
 let c = null ?? 42 // c sera 42
+
+perguntas
+ 
+
+
+O que faz a função abaixo?
+const f = (...args) => console.log(args[0], args[args.length - 1])
+
+
+ r: Exibe o primeiro e o último parâmetros passados no console
+
+
+
+
+ Qual será o valor da variável x no final da execução desse código?
+let person = {
+
+name: "John Doe",
+
+email: "doejohn@email.com",
+
+birthay: "1990-03-14"
+
+age: 32
+
+}
+
+
+
+let x = 0
+
+x = person.data?.age
+
+ O código lançará um erro
