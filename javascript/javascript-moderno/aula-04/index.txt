@@ -1,0 +1,6 @@
+template literals - uma outra forma de declarar strings 
+
+utiliza o acento grave(crase)
+
+
+permite interpolação de strings e quebra de linha automatico 

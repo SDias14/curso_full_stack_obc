@@ -1,0 +1,11 @@
+situação do javascript moderno 
+
+novos recursos do javascript
+
+template literals, etc
+
+gerenciamento de pacotes com npm 
+
+compilação de javascript com babel 
+
+empacotamento (bundling)

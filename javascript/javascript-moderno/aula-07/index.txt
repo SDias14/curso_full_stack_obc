@@ -1,0 +1,26 @@
+spread operator. 
+
+operador que permite espalhar(do ingles, spread) os elementos de um objeto iteravel, como um array ou uma string 
+
+utiliza tres pontos : ...iterableObject 
+
+Pode ser usado para diferentes fins, como por exemplo : 
+
+passar varios parametros de uma vez 
+
+clonar objetos iteraveis 
+
+fazer manipulação sem afetar o objeto original 
+
+transformar strings em arrays 
+
+
+exemplo : 
+
+let str = "Ola, mundo"
+
+let arr = [4,2,8,3,1]
+
+console.log(...str) // separa as letras ola, mundo 
+
+console.log(...arr) // separa os elementos 4,2,8,3,1

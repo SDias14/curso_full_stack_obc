@@ -1,0 +1,6 @@
+arrow function - uma forma diferente de escrever uma funcão anonima. 
+
+arrow function nao possuem um this. arguments , super e new.target. 
+
+
+tambem permite retornar diretamente o retorno se for de uma linha. 

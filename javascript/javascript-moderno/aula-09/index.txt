@@ -1,0 +1,10 @@
+optional chaining 
+
+operador que permite ler propriedades internas de uma cadeia de objetos sem que a validação de cada referencia da cadeia seja realizada 
+
+em outras palavras, permite acessar propriedades internas sem lançar erros quando uma propriedade é nullish (null ou undefined)
+
+funciona de forma similar ao encadeamento normal (operador.) porem é escrito com ?
+
+exemplo 
+

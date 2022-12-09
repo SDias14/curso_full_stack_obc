@@ -1,0 +1,13 @@
+rest params - 
+
+
+é uma tecnica que permite a uma funcao receber qualquer numero de parametros 
+
+tambem permite manipular esses parametros como um array na definição da funcao(o que o diferencia do objeto arguments)
+
+exemplo 
+
+
+function sum(...numbers){
+    return numbers.reduce((accum,num) => accum + num , 0 )
+}

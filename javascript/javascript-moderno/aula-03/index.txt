@@ -1,0 +1,18 @@
+compatibilidade de recursos 
+
+os recursos do javascript precisam ser implementados pelo navegador e seus interpretadores para que funcionem. 
+
+o javascript é uma linguagem de programação interpretada. 
+
+os navegadores podem demorar para implementar novos recursos. 
+
+o internet explorer nao possui novos recursos do javascript. 
+
+
+temos duas fontes principais para ver a compatibilidade dos recursos. 
+
+documentação na mdn 
+
+documentação do javascript no mozilla. 
+
+caIuse - quais navegadores suportam novos recursos. 

@@ -1,0 +1,35 @@
+desestruturação de objetos e arrays
+
+funcionalidade que permite criar variaveis a partir de um objeto ou elementos de um array 
+
+no caso das propriedades do objeto, as variaveis serao criadas com mesmo nome da propriedades
+
+no caso dos elementos do array, podemos atribuir qualquer nome para a variavel 
+
+tambem pode ser utilizada de outras formas , como nos parametros de uma funcao 
+
+exemplo : 
+
+const{name, email} = person 
+
+const[x,y] = coordinates
+
+function hello({name}){
+    console.log(`hello, ${name}`)
+}
+
+
+perguntas : 
+
+Qual é o ponto negativo de utilizar os recursos mais modernos do javascript em um site?
+
+r: Se o navegador não tiver implementado esses recursos eles não irão funcionar
+
+Qual é a forma correta de escrever uma arrow function?
+
+r:  const f = () => {
+ // ...
+
+}
+
+
