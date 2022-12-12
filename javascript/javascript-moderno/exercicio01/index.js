@@ -2,7 +2,9 @@ function averageScore(...numbers) {
     return numbers.reduce((total, number) => total + number, 0) / numbers.length;
     }
 
-console.log(averageScore(2,6,3,7,4));
+console.log(averageScore(2,6,3,7,4)); // acertou
+
+
 
 function mediaPonderada(...numbers) {
     return  notas.map((nota) => ((nota.nota * nota.peso) / nota.peso)).reduce((total, number) => total + number, 0) / notas.length;

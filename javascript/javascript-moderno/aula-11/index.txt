@@ -1,0 +1,28 @@
+introdução aos modulos javascript. 
+
+
+quando utilizamos a tag script importamos uma pagina javascript
+
+o javascript foi sendo cada vez mais utilizados. 
+
+fora dos navegadores. Javascript - node js.
+
+modulos sao agrupamentos de codigos com funcionalidades distintas que podem ser compartilhados , adicionados ou removidos do nosso software. bons modulos faz uma coisa, gerando a modularidade. 
+
+
+por que utilizar os modulos : 
+
+- manutenibilidade : facil de dar manutenção
+
+-namespacing : agrupamento de nomes, ou agrupamento de modulos.   
+
+- reusabilidade : podemos reaproveitar. 
+
+dry - don't repeat yourself. 
+
+modulos no js : 
+
+commonJs
+
+Es Modules. implementação nativa da linguagem. 
+

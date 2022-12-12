@@ -1,0 +1,26 @@
+conhecendo o npm 
+
+node package manager é um gerenciador de pacotes do node.js
+
+node js é a ferramenta que permite executar o javascript fora do navegador. 
+
+o bom de pacotes e modulos e que podemos usar de outras pessoas. essa é a maior vantagem. 
+
+
+nos permite fazer tres coisas principais : 
+
+- compartilhar seus modulos com outros programadores 
+
+- é um conjunto de ferramentas que permite compartilhar os modulos na internet, baixar modulos para o nosso proprio projeto e gerenciar os modulos instalados no nosso projeto. 
+
+isso tudo aliado ao poder da comunidade open source permite aumentar a nossa produtividade (principio Dry)
+
+npm e yarn 
+
+pode ser visto como tres recursos que trabalham juntos. 
+
+uma ferramenta de linha de comando para executar o npm 
+
+um repositorio online de pacotes, onde ficam hospedados os modulos que podemos baixar 
+
+o site npmjs.com onde podemos navegar pelos modulos existentes no repositorio 

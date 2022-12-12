@@ -1,0 +1,21 @@
+arquivos json
+
+json ou javascript Object notation , é um formato de arquivos utilizado para troca de dados 
+
+e um formato compacto , representado em texto, de padrao aberto e que trabalha utilizando o sistema de chave-valor 
+
+como o proprio nome diz , ele utiliza a mesma notação, ou seja, forma de escrever o conteudo, dos objetos do javascript(com alguns minimos detalhes diferentes )
+
+é muito utilizado para troca de dados entre diferentes sistemas e em arquivos de configuração javascript
+
+é amplamente utilizado na web e é suportado por varios linguagens alem do javascript
+
+utilizamos aspas para nomear as chaves 
+
+tipos primitivos suportados para valores : string, number, boolean e null 
+
+{} para definir grupos de propriedades(objetos)
+
+[] para definir listas de dados (arrays)
+
+, para separar as propriedades

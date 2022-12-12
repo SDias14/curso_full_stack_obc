@@ -1,0 +1,21 @@
+{
+  "name": "aula-18",
+  "version": "1.0.0",
+  "description": "npx e scripts npm",
+  "main": "index.js",
+  "scripts": {
+    "hello": "npx hello-world-npm",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hello-world-npm": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "keywords": []
+}

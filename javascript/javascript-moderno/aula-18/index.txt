@@ -1,0 +1,5 @@
+npx e scripts npm 
+
+npx é um comando para que rode as bibliotecas pela linha de comando. 
+
+npx são os executaveis do pacote do npm
