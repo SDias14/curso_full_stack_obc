@@ -1,0 +1,31 @@
+webpack --
+
+o que é o webpack 
+
+empacotador de modulo estatico 
+
+seu objetivo é empacotar todos os modulos de uma aplicação a partir de um ou mais pontos de entrada em um ou mais bundles, que sao arquivos estaticos contendo tudo que a aplicação precisa para funcionar. 
+
+o webpack constroi um grafo de dependencias para os pontos de entrada, o que permite saber exatamente quais modulos sao necessarios. 
+
+webpack.js.org
+
+peças chaves do webpack 
+
+entry - pontos de entrada de onde o webpack procurará por arquivos para empacotar
+
+output - a saida resultante do processo de empacotamento dos modulos 
+
+loaders - permitem que o webpack consiga entender outros tipos de arquivos (css, sass) transformando-os em modulos validos e incluindo em grafo de dependencias.
+
+webpack so entende javascript e json 
+
+por que usar o webpack 
+
+possibilidade de trabalhar com modulos de forma facil, inclusive modulos commom js 
+
+possibilidade de automatizar o gerenciamento de modulos e dependencias da aplicaçao 
+
+empacotar os modulos em arquivos estaticos permite que eles sejam servidos na web de forma mais rapida e facil 
+
+webpack é uma das soluções mais utilizadas do mercado para gerenciamento de assets estaticos, sendo utilizado por grandes empresas e frameworks populares como next.js , vue.js etc
