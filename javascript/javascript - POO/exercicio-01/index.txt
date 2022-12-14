@@ -1,0 +1,27 @@
+primeira coisa : 
+
+criar uma classe User 
+
+quais atributos terao ? 
+
+fullname, email, password (para isso eu vou ter que criar um construtor e atribuir na hora da instanciação do primeiro usuario.)
+
+metodo, fora do construtor. vai ter dois parametros : email e senha que deve ser comparado com, o email e senha que esta no construtor e mostrar uma mensagem no console dizendo se o login foi bem sucedido ou nao 
+
+///////////////////////////
+
+segunda coisa : 
+
+criar uma classe Product 
+
+essa classe vai ter um construtor e esse construtor vai ter como parametros : 
+
+name 
+description 
+price 
+
+inStock (que vai receber um valor padrao 0 )
+
+metodo fora do construtor : addtoStock que tem como parametro a quantidade a ser adicionada em estoque e deve somar essa quantidade à variavel inStock 
+
+outro metodo calculateDiscount , que tem como parametro a percentagem de desconto a ser aplicada e retorna o valor do preço com o desconto aplicado

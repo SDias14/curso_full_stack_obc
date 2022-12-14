@@ -1,0 +1,5 @@
+revisando objetos no javascript 
+
+
+
+são estruturas, no estilo coleção, que podemos armazenar dados de chave valor

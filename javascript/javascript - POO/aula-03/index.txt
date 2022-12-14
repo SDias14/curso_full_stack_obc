@@ -1,0 +1,13 @@
+programação orientada a objetos 
+
+um paradigma de programação, ou seja, um conjunto de conceitos e recursos de linguagem que guiam a forma como programamos(uma forma de se programar, um estilo)
+
+tem como peça central os objetos e a forma como eles se comunicam 
+
+os objetos podem contar dados(atributos) e codigo (metodos)
+
+outros dois termos importantes na POO são classes e instancias 
+
+classes sao como fabricas de objetos a partir de uma forma 
+
+instancias sao os objetos fabricados pela classe 

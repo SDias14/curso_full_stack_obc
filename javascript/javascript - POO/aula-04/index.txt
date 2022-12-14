@@ -1,0 +1,3 @@
+es6 implementou uma forma mais agradavel de se trabalhar com os objetos, que foram as classes. 
+
+precisamos dar os nomes dos arquivos js baseados na classe que estamos trabalhando. 
