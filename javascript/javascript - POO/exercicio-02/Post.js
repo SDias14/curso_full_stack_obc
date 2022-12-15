@@ -1,3 +1,5 @@
+const Comment = require('./Comment')
+
 class Post{
 
     constructor(title, content, comments){

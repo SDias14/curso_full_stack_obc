@@ -1,0 +1,13 @@
+uma classe para um elemento generico do dom. dica(utilize o nome Component, pois o nome element poderá gerar conflitos com a implementação do navegador)
+
+essa classe devera ter um atributo privado para armazenar a referencia ao elemento do dom e um metodo para ler o valor desse atributo.
+
+ela tambem deve ter o metodo build para criar o elemento que deve ser chamado uma vez no construtor, mas tambem deve ser possivel chamar esse metodo novamente para recriar o elemento atraves de uma instancia. 
+
+ela tambem deve possuir um metodo render para adicionar o elemento na pagina que podera ser chamado pela instancia a qualquer momento.
+
+uma classe especifica para elementos input m que deve ser uma subclasse da classe Component . 
+
+uma classe especifica para elementos label que deve ser uma subclasse da classe Component  e no seu construtor deve ser possivel indicar como primeiro parametro qual sera o seu conteudo em texto. 
+
+uma classe especifica para elementos form , que deve ser uma subclasse da classe component e possuir um metodo para adicionar elementos como filhos (atraves das instancias das classes Component e as subclasses criadas).
