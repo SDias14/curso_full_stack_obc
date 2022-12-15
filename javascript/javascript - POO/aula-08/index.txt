@@ -1,0 +1,12 @@
+polimorfismo
+
+
+polimorfismo é o conceito que descreve o ato de um objeto poder assumir diferentes formas.
+
+Na POO, isso pode ser observado na sobrescrita de metodos 
+
+No javascript , uma classe filha pode ter suas proprias implementações dos metodos da classe mae.Isso é chamado de polimorfismo.
+
+a classe Vehicle possui alguns atributos e um metodo move()
+
+as classes, bike, car , ship, plane sao filhas da classe Vehicle, porem cada uma delas implemento o metodo move de uma forma diferente.
