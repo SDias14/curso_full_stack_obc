@@ -1,70 +1,32 @@
-class Character {
-  constructor(name, life) {
-    this.name = name;
-    this.life = life;
-  }
-
-  attack() {
-
-    console.log('Moving');
- 
-  }
-}
-
-class Warrior extends Character {
-  constructor(name,life,position) {
-    super(name, life);
-    this.position = position;
- 
-  }
-
-    attack() {
-
-    console.log('Lutando com espada');
-   
-
-    }
+const Character = require('./Character.js');
+const Mage = require('./Mage.js');
+const Warrior = require('./Warrior.js');
+const Thief = require('./Thief.js');
 
 
-}
+//ataque de character e thief
 
-class Mage extends Character {
-  constructor(name,life,magic) {
-    super(name, life);
-    this.magic = magic;
- 
- 
-  }
+const arthur = new Mage('Arthur', 90, 4, 2, 14);
 
-  attack(spade) {
+const lancelot = new Thief('Lancelot', 140, 22,8);
 
-    console.log(`Lutando com ${spade}`);
-   
+const merlin = new Warrior('Merlin', 200, 14,12, 4);
 
-    }
-  
-    
-  }
+console.table([arthur, lancelot, merlin]);
+
+merlin.switchStance();
+arthur.attack(merlin);
+
+arthur.attack(lancelot);
 
 
-
-const warrior = new Warrior('Goku', 100, 'attack');
-
-const mage = new Mage('Gandalf', 100, 50);
+console.table([arthur, lancelot, merlin]);
 
 
 
 
-warrior.attack();
-mage.attack('arco e flecha');
 
 
-
-
-   
-  
-  
- 
 
   
 

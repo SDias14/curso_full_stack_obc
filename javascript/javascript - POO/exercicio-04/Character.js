@@ -1,17 +1,18 @@
-export class Character {
-  constructor(name, life, attack, defense) {
+class Character {
+  constructor(name, life, attPoints, defPoints) {
     this.name = name;
     this.life = life;
-    this.attack = attack;
-    this.defense = defense;
+    this.attPoints = attPoints;
+    this.defPoints = defPoints;
   }
 
-    attack( target ) {
-        target.life -= this.attack - target.defense;
+  attack(target) {
+    
+    
+    target.life -= this.attPoints - target.defPoints;
+ }
 }
 
+module.exports = Character;
 
-}
 
-
-module.exports = { Character };

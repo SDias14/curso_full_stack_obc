@@ -1,36 +1,32 @@
-export class Warrior extends Character {
-  constructor(name, life, attack, defense, shield, position) {
-    super(name, life, attack, defense);
-    this.shield = shield;
-    this.position = position;
-  }
+const Character = require('./Character');
 
-    attack( target ) {
-        //o ataque so vai acontecer se a posicao for de ataque
-
-        if (this.position === 'attack') {
-            target.life -= this.attack - target.defense;
-        } else {
-            console.log('Não é possível atacar');
+class Warrior extends Character {
+    constructor(name,life,attPoints,defPoints,shield) {
+      super(name, life, attPoints, defPoints);
+      this.shield = shield;
+      this.stance = 'attacking';
+   
+   
+    }
+  
+      attack(target) {
+        if (this.stance === 'attacking') {
+         super.attack(target);
         }
 
-    }
+      }
 
-    changePosition( position ) {
+      switchStance() {
+        if (this.stance === 'attacking') {
+          this.stance = 'defending';
+          this.defPoints += this.shield;
+        } else {
+          this.stance = 'attacking';
+          this.defPoints -= this.shield;
+        }
+      }
+  
+  
+  }
 
-        this.position = position;
-
-    } 
-
-    defend( target ) {
-        //somar os pontos de defesa do guerreiro com os pontos de escudo
-
-        target.life -= this.defense + this.shield - target.attack;
-
-    }
-
-} 
-
-
-module.exports = { Warrior };
-       
+module.exports = Warrior;

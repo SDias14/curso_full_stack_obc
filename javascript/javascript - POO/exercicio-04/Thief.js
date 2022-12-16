@@ -1,18 +1,17 @@
+const Character = require('./Character');
 
-
-export class Thief extends Character {
-  constructor(name, life, attack, defense){
-    super(name, life, attack, defense);
+class Thief extends Character {
    
+   
+    
+  
+      attack(target) {
+            target.life -=( this.attPoints - target.defPoints) * 2;
+      }
+
   }
 
-    attack( target ) {
-        target.life -= this.attack - target.defense;
-        this.life += this.attack - target.defense;
 
-    }
-}
-
-
-
-module.exports = { Thief };
+module.exports = Thief;
+    
+    

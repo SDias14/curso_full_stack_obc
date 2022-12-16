@@ -1,0 +1,5 @@
+atributos e metodos estaticos nas classes 
+
+sao atributos e metodos definidos em uma classe que nao dependem de uma instancia para serem utilizados
+
+sao acessados diretamente pela classe ao inves de uma instancia. 
