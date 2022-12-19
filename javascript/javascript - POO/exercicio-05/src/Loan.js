@@ -20,10 +20,10 @@ module.exports = class Loan {
         return this.#fee;
     }
 
-    static setFee(fee) {
+    static setFee(feeNew) {
         // nova taxa com base em porcentagem
 
-        this.#fee = fee / 100;
+        this.#fee = 1 + (feeNew / 100);
     }
 
 }

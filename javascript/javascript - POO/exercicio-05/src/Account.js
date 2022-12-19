@@ -1,6 +1,7 @@
 const Deposit = require('./Deposit')
 const Transfer = require('./Transfer')
 const Loan = require('./Loan')
+const App = require('./App')
 
 module.exports = class Account {
 
@@ -8,32 +9,37 @@ module.exports = class Account {
 
     //trazer todos os depositos realizados ,transferencias e emprestimos
 
-    constructor() {
-        this.#balance = 0;
+    constructor(user) {
+        
         this.deposits = [];
         this.transfers = [];
         this.loans = [];
+        this.accountId= user.accountId;
+        this.#balance = 0;
     }
 
 
-    get balance() {
+    getBalance() {
+
         return this.#balance;
     }
 
     deposit(value) {
         this.#balance += value;
         this.deposits.push(new Deposit(value));
+
     }
 
-    transfer(value, account) {
-        this.#balance -= value;
-        account.#balance += value;
-        if (account instanceof Account) {
-            this.transfers.push(new Transfer(value, account));
-        }
+    
+
+    transfer(value) {
+        this.#balance += value;
+        this.transfers.push(new Transfer(value));
     }
 
-    loan(value) {
+
+    
+  loan(value) {
         this.#balance += value;
         this.loans.push(new Loan(value));
     }
