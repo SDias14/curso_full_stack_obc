@@ -1,0 +1,13 @@
+sincrono e assincrono 
+
+uma execução sincrona segue um fluxo linear .
+
+executa passo a passo do trecho de um codigo 
+
+se executa uma instrução apos a anterior ter sido executada
+
+a execução assincrona nao segue esse formato 
+
+nao aguarda o fim da execução para passar para o proximo passo
+
+passa para a instrução seguinte sem aguardar o fim da execução da anterior

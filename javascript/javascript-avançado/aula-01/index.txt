@@ -1,0 +1,2 @@
+funcoes de alta ordem, ou high order functions 
+

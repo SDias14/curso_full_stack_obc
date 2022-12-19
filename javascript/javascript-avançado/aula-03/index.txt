@@ -1,0 +1,21 @@
+promises - recurso assincrono do js
+
+basicamente dao suporte para operações assincronas
+
+guardam a operação que precisamos dentro de um objeto cuja classe é chamada Promise
+
+quando precisamos executar , basta chamar este objeto. 
+
+possui quatro estados: 
+
+pendente : quando a promise e criada e ainda nao foi executada 
+
+realizada : quando teve sucesso na operação
+
+recusada : quando teve falha na operação 
+
+estabelecida : quando a promise foi realizada ou recusada
+
+pendente é o estado inicial
+
+nos decidimos se ela vai ser realizada ou recusada
