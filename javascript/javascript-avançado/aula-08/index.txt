@@ -1,0 +1,1 @@
+async functions sao funções que lidam com ações assincronas 

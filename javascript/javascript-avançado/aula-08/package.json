@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "regenerator-runtime": "^0.13.11"
+  }
+}

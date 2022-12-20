@@ -1,0 +1,34 @@
+application Programming Interface 
+
+
+é um termo antigo , surgiu antes da propria web , 
+
+um meio pelo qual dois sistemas se comunicam , 
+
+- um consegue utilizar funcionalidades do outro
+
+- permite a um sistema enviar e receber dados. 
+
+- a mais utilizada hoje é a rest Api 
+
+feita sobre o protocolo http - envolve requisicoes web
+
+da mesma forma que requisitamos paginas wb pelo browser, podemos solicitar recursos 
+
+rest significa representational state transfer
+
+é um modelo 
+
+consistem em regras e padroes e permitem a criação de apis bem definidas
+
+utiliza o get , post, patch/put delete
+
+quando utilizamos uma url no navegador , estamos fazendo uma requisição 
+
+ela nos retorna uma pagina html 
+
+para apis tambem fazemos uma requisição para uma url . 
+
+mas nao nos retorna uma pagina 
+
+nos retorna json, xml , etc.
