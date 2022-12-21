@@ -1,13 +1,24 @@
-import Lorem from "./components/Lorem_Ipsum";
+import Planets from "./components/planets";
+
 
 function App() {
   return (
+    <div>
+    
+    
+    <Planets />
 
-    <Lorem />
+   
+    
+    
+    </div>
 
-  );
 
-
-}
-
-export default App;
+    
+    );
+    
+    
+  }
+  
+  export default App;
+  
