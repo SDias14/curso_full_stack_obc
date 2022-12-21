@@ -1,0 +1,7 @@
+o que sao components 
+
+o react é uma biblioteca baseada no conceito de components 
+
+os components permitem dividir a interface do usuario em partes independentes e reutilizaveis
+
+dois tipos de componentes no react : funcao e classe

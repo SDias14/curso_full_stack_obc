@@ -1,0 +1,19 @@
+o que é react - 
+
+react é uma biblioteca javascript declarativa, eficiente e flexível para a criação de interfaces de utilizador.
+
+surgiu em 2011, no facebook
+
+-é uma biblioteca nao um framework
+
+é baseada em componentes
+
+é usado para criar spa
+
+react e feito em javascriot entao podemos reaproveitar conhecimentos de javascript
+
+o react é eficiente (virtual dom)
+
+pode ser utilizado para criar apps mobile com o react native 
+
+cria interfaces mais popular como facebook, instagram, netflix, airbnb, uber, whatsapp, etc

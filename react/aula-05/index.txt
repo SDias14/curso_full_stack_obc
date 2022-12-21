@@ -1,0 +1,17 @@
+Dom - é um objeto / interface criado pelo browser que representa a estrutura de nossa html e que nos da meios para interagir com ele (usamos geralmente o javascript para isso).
+
+virtual dom no react 
+
+é uma representação em javascript do dom verdadeiro. quando alterações e eventos acontecem, primeiro o react atualiza o virtual dom , analisa as mudanças e o que precisa para ser atualizado no dom, e depois realiza isso concilindo o virtual dom com o dom verdadeiro.
+
+por que o react usa o virtual dom 
+
+acessar o dom é mais lento que as operações em javascript 
+
+o virtual dom automaticamente encontra a maneira mais economica de atualizar o dom (atualizando somente os elementos necessarios)
+
+os menores blocos do react sao os elementos , atraves deles é que descrevemos o que vai aparecer na tela. 
+
+diferente dos elementos do dom , os elementos do react sao objetos simples e baratos de criar]
+
+o virtual dom é o responsavel por atualizar o dom e exibir esses elementos na tela. 

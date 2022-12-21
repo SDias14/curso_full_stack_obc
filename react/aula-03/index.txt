@@ -1,0 +1,21 @@
+jsx  - 
+
+um exemplo de codigo jsx é :
+
+const element = <h1 className = "title">Hello World</h1>;
+
+o codigo original é :
+
+const element = React.createElement(
+  'h1',
+  {className: 'title'},
+  'Hello, world!'
+);
+
+não é apenas html e nem js 
+
+jsx serve para descrever como a interface do usuario deve ser 
+
+jsx nao é interpretado pelo navegador, por este motivo devemos utilizar o babel para converter o codigo jsx em js
+
+ao contrario do passado , em vez de colocar javascript dentro do html, agora colocamos html dentro do javascript
