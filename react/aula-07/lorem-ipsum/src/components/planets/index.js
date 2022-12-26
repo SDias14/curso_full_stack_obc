@@ -2,6 +2,11 @@ import React, {Fragment} from 'react';
 import Planet from './planet';
 
 
+const showMessage = () => {
+    console.log('Hello World');
+}
+
+
 
 
 const Planets = () => {
@@ -9,6 +14,7 @@ const Planets = () => {
         <Fragment>
         
         <h1>Planet List</h1>
+        <button onClick = {showMessage}>Click me</button>
         <hr />
         
         <Planet 
