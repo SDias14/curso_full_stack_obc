@@ -1,0 +1,17 @@
+http - hipertext transference protocol 
+
+https - secure http
+
+http verbs helps us identify the type of request we are making to the server
+
+one unique url can have multiple http verbs
+
+the main http verbs are:
+
+get - used to retrieve data from the server
+
+post - used to send data to the server
+
+put - used to update data on the server
+
+delete - used to delete data from the server

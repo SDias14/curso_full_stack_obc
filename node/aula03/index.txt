@@ -1,0 +1,5 @@
+mvc is a architectural pattern. it consists in a set of design patterns that are used to develop web applications. three main points:
+
+    * model: the data
+    * view: the presentation
+    * controller: the logic
