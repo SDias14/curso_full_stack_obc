@@ -1,0 +1,31 @@
+banco de dados relacionais e nao relacionais
+
+bancos de dados sao colecoes de dados relacionados entre si e armazenados em um computador para uso posterior 
+
+sao operados por um sistema de gerenciamento de banco de dados (SGBD) que permite a criacao, consulta, atualizacao e gerenciamento de dados
+
+os bancos relacionais sao os mais comuns e sao baseados em tabelas
+
+toda estrutura deve ser criada antes de inserir os dados. 
+
+a estrutura desses bancos sao feitas atraves de sql (linguagem de consulta estruturada) 
+
+os bancos nao relacionais sao mais flexiveis e nao precisam de uma estrutura pre definida
+
+temos varias formas de organizar os dados em um banco de dados nao relacional
+
+exemplos de bancos nao relacionais: mongodb, cassandra, redis, neo4j, couchdb, etc
+
+documento : armazena os dados em documentos json, xml, etc
+
+chave-valor: armazena os dados em pares de chave-valor
+
+grafos: armazena os dados em grafos
+
+--------------
+
+mongodb é um banco de dados nao relacional orientado a documentos
+
+ele armazena os dados em documentos json
+
+ele vai escrever em bson que é um formato binario de json e tem o objetivo de diminuir o tamanho dos dados
