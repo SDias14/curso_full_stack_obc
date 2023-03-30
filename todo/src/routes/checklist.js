@@ -2,35 +2,75 @@ const express = require('express');
 
 const router = express.Router();
 
-router.get('/', (request, response) => {
-    console.log('checklist');
-    response.send('My todo app');
+const Checklist = require('../model/checklist');
+
+router.get('/', async (request, response) => {
+   try{
+      let checklists = await Checklist.find({});
+      response.status(200).render('checklists/index', {checklists: checklists})
+   }catch(error){
+    response.status(400).render('pages/error', {error:'Error rendering the page'});
+   }
+   
 });
 
-router.get('/:id', (request, response) => {
-   const id = request.params.id;
+
+router.get('/new', async (request, response) => {
+    try{
+       let checklist = new Checklist();
+         response.status(200).render('checklists/new', {checklist: checklist})
+    }catch(error){
+        response.status(400).render('pages/error', {error:'Error rendering the page'});
+    }
+});
+
+
+router.post('/', async(request, response) => {
+    let {name} = request.body.checklist;
+    let checklist = new Checklist({name});
     
-    console.log(id);
+    try{
+        await Checklist.save();
+        response.redirect('/checklists');
+    }catch(error){
+        response.status(500).render('pages/error', {error:'Error creating the checklist'});
+    }   
+});
     
-    response.send('the id is: ' + id);
+    
+router.get('/:id', async (request, response) => {
+    try{
+     let checklist = await Checklist.findById(request.params.id);
+     response.status(200).render('checklists/show', {checklist: checklist})
+    }catch(error){
+        response.status(500).render('pages/error', {error:'Error rendering the page'});
+    }
+   
+    
+    
+    
+    
 });
 
-router.post('/', (request, response) => {
-    console.log(request.body);
-    response.status(201).json(request.body);
+
+router.put('/:id', async (request, response) => {
+    let {name} = request.body;
+    try{
+        let checklist = await Checklist.findByIdAndUpdate(request.params.id, {name}, {new: true});
+        response.status(200).json(checklist);
+    }catch(error){
+        response.status(422).json(error);
+    }
+
 });
 
-router.put('/:id', (request, response) => {
-    const id = request.params.id;
-    console.log(id);
-    console.log(request.body);
-    response.status(200).json(request.body);
-});
-
-router.delete('/:id', (request, response) => {
-    const id = request.params.id;
-    console.log(id);
-    response.send('Deleted id: ' + id);
+router.delete('/:id', async (request, response) => {
+    try{
+        let checklist = await Checklist.findByIdAndDelete(request.params.id);
+        response.status(200).json(checklist);
+    }catch(error){
+        response.status(422).json(error);
+    }
 });
 
 
