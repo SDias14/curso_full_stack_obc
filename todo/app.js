@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const checkListRouter = require('./src/routes/checklist');//checklist router
 const taskRouter = require('./src/routes/task');//task router
-const rootRouter = require('./src/routes/index');//root router
+const   rootRouter = require('./src/routes/index');//root router
 const methodOverride = require('method-override');//method override
 
 //importing database connection
