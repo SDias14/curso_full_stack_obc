@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const checkListRouter = require('./src/routes/checklist');//checklist router
-const taskRouter = require('./src/routes/task');//task router
+const taskRouter = require('./src/routes/task')
 const   rootRouter = require('./src/routes/index');//root router
 const methodOverride = require('method-override');//method override
 
@@ -25,7 +25,9 @@ app.set('view engine', 'ejs');// this middleware sets the default engine extensi
 app.use('/', rootRouter);//this middleware sets the root router. When a request is made to the root, the root router will handle it
 
 app.use('/checklists',checkListRouter);//this middleware sets the checklist router
-app.use('/checklists', taskRouter.checklistDependent);//this middleware sets the task router
+app.use('/checklists', taskRouter);//this middleware sets the task router
+
+app.use('/tasks', taskRouter);//this middleware sets the task router
 
 
 
