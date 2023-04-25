@@ -1,0 +1,299 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "universe",
+        "description": "universe API Documentation",
+        "version": "1.0.0"
+    },
+
+    "basePath": "/",
+    "paths": {
+        "/" : {
+            "get": {
+                "summary": "Get all the planets in the universe",
+                "description": "Returns a list of all the planets in the universe"
+            }
+        },
+        "/planets/:id" : {
+            "get": {
+                "summary": "Get a planet by id",
+                "description": "Returns a planet by id",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "params",
+                        "description": "The id of the planet",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+
+                "responses": {
+                    "200": {
+                        "description": "The planet",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "name": {
+                                            "type": "string"
+                                        },
+                                        "position": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        },
+
+        "/planets" : {
+            "post": {
+                "summary": "Create a new planet",
+                "description": "Creates a new planet",
+                "parameters": [
+                    {
+                        "name": ["name", "position"],
+                        "in": "body",
+                        "description": "The planet to create",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "position": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+
+        "*/planets/:id" : {
+            "put": {
+                "summary": "Update a planet",
+                "description": "Updates a planet",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "params",
+                        "description": "The id of the planet",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": ["name", "position"],
+                        "in": "body",
+                        "description": "The planet to update",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "position": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+
+        "**/planet/:id" : {
+            "delete": {
+                "summary": "Delete a planet",
+                "description": "Deletes a planet",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "params",
+                        "description": "The id of the planet",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ]
+            }
+        }, 
+
+        "/planets/:planetId/satellites":{
+            "get": {
+                "summary": "Get all the satellites of a planet",
+                "description": "Returns a list of all the satellites of a planet",
+                "parameters": [
+                    {
+                        "name": "planetId",
+                        "in": "params",
+                        "description": "The id of the planet",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ]
+            }
+        },
+
+        "*/planets/:planetId/satellites":{
+            "post": {
+                "summary": "Create a new satellite",
+                "description": "Creates a new satellite",
+                "parameters": [
+                    {
+                        "name": "planetId",
+                        "in": "params",
+                        "description": "The id of the planet",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": ["name", "serialNumber"],
+                        "in": "body",
+                        "description": "The satellite to create",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "serialNumber": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }, 
+
+        "/cap": {
+            "get": {
+                "summary": "Get the cap of the universe",
+                "description": "Returns the cap of the universe"
+            }
+        },
+
+        "*/cap":{
+            "post" : {
+                "summary": "Set the cap of the universe",
+                "description": "Sets the cap of the universe",
+                "parameters": [
+                    {
+                        "name": ["name", "serialNumber"],
+                        "in": "body",
+                        "description": "The cap to set",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "serialNumber": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+
+
+
+
+                    }
+
+                ]
+            }
+        }, 
+
+        "/caps/:capId/spaceships" : {
+            "get": {
+                "summary": "Get all the spaceships of a cap",
+                "description": "Returns a list of all the spaceships of a cap",
+                "parameters": [
+                    {
+                        "name": "capId",
+                        "in": "params",
+                        "description": "The id of the cap",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ]
+            }
+        },
+
+        "*/caps/:capId/spaceships" : {
+            "post": {
+                "summary": "Create a new spaceship",
+                "description": "Creates a new spaceship",
+                "parameters": [
+                    {
+                        "name": "capId",
+                        "in": "params",
+                        "description": "The id of the cap",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": ["name", "capacity"],
+                        "in": "body",
+                        "description": "The spaceship to create",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "capacity": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+        
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+        
+    

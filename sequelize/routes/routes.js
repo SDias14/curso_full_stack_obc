@@ -8,7 +8,7 @@ const SatelliteController = require('../src/controller/SatelliteController');
 const CapController = require('../src/controller/CapController');
 const SpaceshipController = require('../src/controller/SpaceshipController');
 
-
+// Planet Routes
 
 
 app.get('/', PlanetController.index);
